@@ -1,0 +1,39 @@
+$brand-gray:                        #9f9fa3;
+$brand-primary:                     #35363d;
+$brand-info:                        #651fff;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif:  "Raleway", Helvetica, Arial, sans-serif;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+$text-color:                        $brand-primary;
+
+// Headings
+// -------------------------
+$headings-color:                    $brand-primary;
+$headings-font-weight:              500;
+
+//== Navbar
+//
+//##
+$navbar-default-color:              $brand-gray;
+$navbar-default-bg:                 #fff;
+
+$navbar-default-link-color:         $brand-gray;
+$navbar-default-link-hover-color:   $brand-primary;
+
+$navbar-margin-bottom:              0;
+
+//== Type
+//
+//##
+$blockquote-font-size:              22px;
+$blockquote-small-color:            $brand-gray;
+
+// theme variables
+$section-padding-vertical:          30px;

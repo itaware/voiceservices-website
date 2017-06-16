@@ -1,0 +1,42 @@
+.navbar-default {
+  .navbar-nav {
+    > li {
+      padding: 0 15px;
+      &.active{
+        a{
+          background:none;
+          &:after{
+            transform: scaleX(1);
+            transition: all 0.5s;
+          }
+        }
+      }
+      > a {
+        position: relative;
+        padding: 46px 0;
+        &:after{
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 3px;
+          background-image: linear-gradient(to right, #651fff, #1de9b6);
+
+          transform-origin: left center;
+          transform: scaleX(0);
+        }
+        &:hover{
+          &:after{
+            transform: scaleX(1);
+            transition: all 0.5s;
+          }
+        }
+      }
+    }
+  }
+  .navbar-brand{
+    height: auto;
+    margin-top: 12px;
+  }
+}

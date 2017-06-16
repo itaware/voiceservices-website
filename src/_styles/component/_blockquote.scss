@@ -1,0 +1,10 @@
+blockquote{
+  border: 0;
+  color: $brand-gray;
+  .author{
+    margin-top: 8px;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: $brand-info;
+  }
+}

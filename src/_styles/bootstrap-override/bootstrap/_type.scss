@@ -1,0 +1,17 @@
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-bottom: 50px;
+}
+h2{
+  text-transform: uppercase;
+  color: inherit;
+  &:before{
+    content: "";
+    @include dash();
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+}

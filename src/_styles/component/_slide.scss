@@ -1,0 +1,14 @@
+.content-header-slide{
+  padding: 1px;
+  background: no-repeat center center / cover;
+  color: #fff;
+  font-size: 23px;
+  &--content{
+    margin: 10% auto;
+  }
+}
+.home{
+  .content-header-slide{
+    background-image: url(../images/slide/slide.jpg);
+  }
+}

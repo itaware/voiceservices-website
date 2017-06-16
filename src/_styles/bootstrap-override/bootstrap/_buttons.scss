@@ -1,0 +1,13 @@
+.btn-white{
+  @include button-variant($brand-primary, #fff , #fff);
+}
+.btn-rounded{
+  margin: 15px 15px;
+  border-radius: 50%;
+  &.btn-lg{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    line-height: 100px;
+  }
+}

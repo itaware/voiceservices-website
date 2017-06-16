@@ -1,0 +1,7 @@
+@mixin bg-gradient($color-start: #651fff , $color-stop: #1de9b6){
+  background-image: linear-gradient(to right, #651fff, #1de9b6);
+}
+
+@import "mixins/dash";
+
+
