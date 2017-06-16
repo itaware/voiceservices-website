@@ -1,9 +1,110 @@
+{% set bodyClass = 'home' %}
 {% extends '_layouts/base.nunjucks' %}
 
 
 {% block content %}
 <div class="main-container">
+  <header id="a-propos" class="content-header-slide">
+    <div class="content-header-slide--content text-center text-uppercase">
+      <img src="{{baseUrl}}images/voice-logo-final-2.png"
+           srcset="{{baseUrl}}images/voice-logo-final-2@2x.png 2x,
+             {{baseUrl}}images/voice-logo-final-2@3x.png 3x"
+           class="Voice-logo-final-2">
+      <p>crée pour vous, avec vous,</p>
+      <p>
+        des interfaces conversationnelles pour les professionnels.
+      </p>
+    </div>
+  </header>
+  <section id="enjeux" class="container">
+    <div class="col-xs-12 col-sm-7">
+      <h2>L'enjeu est crucial</h2>
+      <blockquote>
+        <div class="text">
+          “ C'est un changement radical de la façon de consommer Internet. ”
+        </div>
+        <div class="author">
+          Franck • CEO voice services
+        </div>
+      </blockquote>
+      <p>
+        Il s'est déjà écoulé à plus de <span class="text-bold">8 millions d'exemplaires</span> fin 2016, selon les
+        estimations de Consumer Intelligence Research Partners. Et la vague grossit à vue d'oeil.
+      </p>
+      <div class="block-highlight col-sm-9 bg-primary">
+        50 % des recherches seront vocales d'ici à 2020*
+        <div class="text-right">
+          <small>* prédiction ComScore</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-5">
+      <div class=" text-semibold text-uppercase">ASSITANTS VIRTUELS :</div>
+      <p class="text-medium ">un enol des utilisateurs...En millions, dans le monde.</p>
+      <small class="text-gray">Source Les Echos / Juniper Research</small>
 
+      <img src="{{baseUrl}}images/graphique.jpg" alt="Graphique" class="img-responsive"/>
+    </div>
+  </section>
+  <section class="container">
+    <div class="col-xs-12 col-sm-6">
+      <img src="{{baseUrl}}images/composition-produit.jpg" alt="Composition produit"/>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="dash"></div>
+      <p>
+        Les interfaces conversationnelles regroupent les chatbots (interactions avec un robot via la messagerie
+        instantanée) et les terminaux voix type <span class="text-semibold">Google Home, Amazon Echo (Alexa), Home Pod, Facebook Messenger.</span>
+      </p>
+      <p>Grâce aux avancées technologique en terme d’intelligence artificielle et de machine learning, ces interfaces
+        sont en mesure de reconnaître la voix et d’interpréter le langage naturel.</p>
+      <p>Ce nouvel usage, extrêmement intuitif, offre des possibilités révolutionnaires pour <span
+        class="text-semibold">diffuser et vendre vos produits et services.</span></p>
+    </div>
+  </section>
+  <section id="expertise" class="bg-image bg-gradient text-white">
+    <div class="container">
+      <h2>Expertise</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <p>
+            Grâce à notre expertise des interfaces conversationnelles nous vous proposons de concevoir vos scénarios
+            d’interactions avec vos produits et services et de les déployer sur notre plateforme.
+          </p>
+          <p>
+            Nous assurons la maintenance de vos interfaces tout en vous donnant accès au pilotage et à la supervision de
+            celles-ci via notre plate-forme.
+          </p>
+          <p>
+            Nous développons des interfaces conversationnelles pour tous secteurs d’activité.
+          </p>
+          <p>
+            Cette approche transversale nous permet, via notre plateforme intégrant de l’intelligence artificielle et du
+            machine learning, de pouvoir créer des interfaces conversationnelles intelligentes capable de lier les
+            services entre eux <span
+            class="text-semibold">pour une expérience utilisateur toujours plus pertinente.</span>
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+          <div class="text-uppercase text-semibold">Notre plateforme est compatible avec : </div>
+          <div class="btn btn-white btn-rounded btn-lg"><img src="{{baseUrl}}images/social/googleassistant.png" alt="Google assistant" title="" class="img-responsive" /></div>
+          <div class="btn btn-white btn-rounded btn-lg"><img src="{{baseUrl}}images/social/alexa.png" alt="Alexa" title="Alexa" class="img-responsive" /></div>
+          <div class="btn btn-white btn-rounded btn-lg"><img src="{{baseUrl}}images/social/siri.png" alt="Siri" title="Siri" class="img-responsive" /></div>
+          <div class="btn btn-white btn-rounded btn-lg"><img src="{{baseUrl}}images/social/cortana.png" alt="Cortana" title="Cortana" class="img-responsive" /></div>
+          <div class="btn btn-white btn-rounded btn-lg"><img src="{{baseUrl}}images/social/messenger.png" alt="Messenger" title="Messenger" class="img-responsive" /></div>
+          <div class="btn btn-white btn-rounded btn-lg"><img src="{{baseUrl}}images/social/whatsapp.png" alt="whatsapp" title="whatsapp" class="img-responsive" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="process" class="container">
+    <h2>Process</h2>
+
+  </section>
+  <section id="metiers" class="bg-primary">
+    <div class="container">
+      <h2>Métiers</h2>
+    </div>
+  </section>
 </div>
-<code class="version">v2.0.0</code>
 {% endblock %}

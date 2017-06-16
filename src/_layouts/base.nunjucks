@@ -1,33 +1,60 @@
 {# Custom Configuration #}
 {% block config %}
-  {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
-  {# Otherwise default to relative pathing #}
-  {% set baseUrl = config.baseUrl or './' %}
+{# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+{# Otherwise default to relative pathing #}
+{% set baseUrl = config.baseUrl or './' %}
 {% endblock %}
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>VoiceServices</title>
-    <meta name="description" content="A new Yeogurt application"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
-    {% block stylesheets %}{% endblock %}
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>VoiceServices</title>
+  <meta name="description" content="A new Yeogurt application"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
+  {% block stylesheets %}{% endblock %}
 
-  </head>
-  <body>
-    <!--[if lt IE 11]>
-    <p class="browsehappy">
-      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
-    </p>
-    <![endif]-->
+</head>
+<body class="{{bodyClass}}" data-spy="scroll" data-target="#main-nav" >
+<!--[if lt IE 11]>
+<p class="browsehappy">
+  You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
+  to improve your experience.
+</p>
+<![endif]-->
+<header class="header-site">
+  <nav class="navbar navbar-default navbar-fixed-top clearfix">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#main-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="{{baseUrl}}images/voice-logo.png" alt="Your customers ave the floor !"/></a>
+      </div>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="nav navbar-nav text-uppercase">
+          <li><a href="#a-propos">A propos</a></li>
+          <li><a href="#enjeux">Les enjeux</a></li>
+          <li><a href="#">Expertise</a></li>
+          <li><a href="#">Métiers</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+{% block content %}{% endblock %}
 
-    {% block content %}{% endblock %}
-
-    <script src="{{baseUrl}}scripts/main.js"></script>
-    {% block scripts %}{% endblock %}
-  </body>
+<script src="{{baseUrl}}scripts/main.js"></script>
+{% block scripts %}{% endblock %}
+</body>
 </html>
