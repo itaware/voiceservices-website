@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('../fonts/iconfont/iconfont.eot');
+	src: url('../fonts/iconfont/iconfont.eot?#iefix') format('eot'),
+		url('../fonts/iconfont/iconfont.woff2') format('woff2'),
+		url('../fonts/iconfont/iconfont.woff') format('woff'),
+		url('../fonts/iconfont/iconfont.ttf') format('truetype'),
+		url('../fonts/iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.icon:before {
+	font-family: "iconfont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-app-call:before {
+	content: "\E001";
+}
+
+.icon-app-kik:before {
+	content: "\E002";
+}
+
+.icon-app-line:before {
+	content: "\E003";
+}
+
+.icon-app-message:before {
+	content: "\E004";
+}
+
+.icon-app-messenger:before {
+	content: "\E005";
+}
+
+.icon-arrow-left:before {
+	content: "\E006";
+}
+
+.icon-calendar:before {
+	content: "\E007";
+}
+
+.icon-check-marked-outline:before {
+	content: "\E008";
+}
+
+.icon-check:before {
+	content: "\E009";
+}
+
+.icon-email:before {
+	content: "\E00A";
+}
+
+.icon-facebook-off:before {
+	content: "\E00B";
+}
+
+.icon-facebook:before {
+	content: "\E00C";
+}
+
+.icon-googleplus:before {
+	content: "\E00D";
+}
+
+.icon-linkedin:before {
+	content: "\E00E";
+}
+
+.icon-phone-call:before {
+	content: "\E00F";
+}
+
+.icon-phone-icon:before {
+	content: "\E010";
+}
+
+.icon-pinterest:before {
+	content: "\E011";
+}
+
+.icon-play:before {
+	content: "\E012";
+}
+
+.icon-plus:before {
+	content: "\E013";
+}
+
+.icon-twitter:before {
+	content: "\E014";
+}
+
+.icon-youtube:before {
+	content: "\E015";
+}

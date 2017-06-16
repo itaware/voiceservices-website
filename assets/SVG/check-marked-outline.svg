@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checkbox-marked-outline(1)-copy" transform="translate(0.000000, -3.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g transform="translate(0.000000, 3.000000)" id="Shape">
+                <path d="M711.111111,711.111111 L88.8888889,711.111111 L88.8888889,88.8888889 L533.333333,88.8888889 L533.333333,0 L88.8888889,0 C39.5555556,0 0,39.5555556 0,88.8888889 L0,711.111111 C0,760.203089 39.7969111,800 88.8888889,800 L711.111111,800 C760.203089,800 800,760.203089 800,711.111111 L800,355.555556 L711.111111,355.555556 L711.111111,711.111111 Z M218.222222,314.666667 L155.555556,377.777778 L355.555556,577.777778 L800,133.333333 L737.333333,70.2222222 L355.555556,452 L218.222222,314.666667 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
