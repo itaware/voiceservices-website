@@ -5,3 +5,9 @@
 
 var $ = require('jquery');
 require('bootstrap');
+require('./timeline/jquery.timeline');
+
+
+$(document).ready(function(){
+    $('.container-timeline').timeline();
+});

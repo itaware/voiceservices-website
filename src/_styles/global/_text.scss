@@ -1,3 +1,4 @@
+// == weight
 .text-medium{
   font-weight: 500;
 }
@@ -10,9 +11,16 @@
   font-weight: 700;
 }
 
+
+// == color
 .text-gray{
   color: $brand-gray;
 }
 .text-white{
   color: #fff;
+}
+
+// == size
+.text-sm{
+  font-size: 16px;
 }

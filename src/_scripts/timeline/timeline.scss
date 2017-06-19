@@ -1,0 +1,204 @@
+@import 'variables';
+
+// == container
+//
+.container-timeline{
+  position: relative;
+  padding: $timeline-margin 0;
+  &:after{
+    content:'';
+    display:block;
+    float:none;
+    clear:both;
+  }
+  @media(max-width: $mobile_breakpoint_max){
+    margin-left: 15px;
+  }
+}
+
+// == line elements
+//
+.timeline{
+  position: absolute;
+  z-index: 1;
+  width: $timeline-width;
+  top: $timeline-margin + $timeline-item-padding-vertical;
+  bottom: $timeline-margin + $timeline-item-padding-vertical;
+  text-align: center;
+
+  &-start{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  &-line{
+    display:inline-block;
+    width: $timeline-line-width;
+    height: 0;
+    //max-height: calc(100% -  #{$skill-minheight} * 0.5);
+    background: $timeline-bg;
+  }
+  &-end{
+    display:block;
+    width: 0;
+    margin: auto;
+  //  height: $skill-minheight * 0.3;
+    border-left: 1px dashed #fff;
+    transform: scaleY(0);
+    transform-origin: center top;
+    transition: all 3s;
+  }
+  @media(min-width: $mobile_breakpoint){
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+// == timeline item
+//
+.timeline-item{
+  position: relative;  
+  padding: $timeline-item-padding-vertical $timeline-item-padding-horizontal;
+
+  // anim point
+  &.anim{
+    .timeline-item-content{
+      opacity: 1; 
+    }
+    &.timeline-point, .timeline-point{
+      opacity: 1;
+
+    }
+  }
+
+  // timeline point content
+  &-content{
+    width: calc(100% - #{$timeline-width} / 2 - 60px);
+    opacity: 0;
+    margin-top: 83px + $timeline-point-margin-between;
+    transform: translateY(-50%);
+    transition: all $timeline-item-transition;
+    transition-delay: $timeline-point-transition-delay;
+
+    &-inner{
+      padding: 15px 20px;
+      background: $timeline-content-bg;
+      box-shadow: $timeline-content-shadow;
+    }
+  } 
+  .block-indent{
+    padding-left: $timeline-block-indent;
+  }
+
+    width: 50%;
+
+    // item right
+    &:nth-child(even){
+      clear:right;
+      &.timeline-point, .timeline-point{
+        float: right;
+        transform: translateX(50%);
+      }
+      .block-indent{
+        padding-right: $timeline-block-indent;
+      }
+    }
+  &:nth-child(odd){
+    clear:left;
+    float:right;
+    &.timeline-point, .timeline-point{
+      float: left;
+      transform: translateX(-50%);
+      +.timeline-point {
+        &:before,
+        &:after {
+          left: calc( 100% + 15px);
+          right: auto;
+        }
+      }
+    }
+    .timeline-item-content{
+      float: right;
+    }
+
+  }
+    &.anim{
+      &:nth-child(even){
+
+      }
+    }
+    .dash{
+      margin: 20px 0;
+    }
+  @media(max-width: $screen-sm-max){
+    + .timeline-item{
+      padding-top: 80px;
+    }
+  }
+}
+
+
+// == timeline point
+//
+.timeline-point{
+  position: relative;
+  z-index: 200;
+  opacity: 0;
+  float:left;
+  clear: both;
+  padding: 20px 30px;
+  border-radius: 3em;
+  transform: translateX(-50%);
+  transition: all  $timeline-point-transition-time; 
+  transition-delay: $timeline-point-transition-delay;
+
+  +.timeline-point {
+    margin-top: $timeline-point-margin-between;
+    cursor: pointer;
+    @media(min-width: $screen-md-min) {
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: calc(100% + 15px);
+        background: #c9c9d0;
+        transform: translateY(-50%);
+      }
+      &:before {
+        width: 75px;
+        height: 0.12em;
+      }
+      &:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.timeline-modal-open{
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+  z-index: 1200;
+  display: block !important;
+  width: auto;
+  margin: 0;
+  transform: none;
+  .timeline-item-content-inner{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+

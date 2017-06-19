@@ -1,5 +1,5 @@
-@mixin bg-gradient($color-start: #651fff , $color-stop: #1de9b6){
-  background-image: linear-gradient(to right, #651fff, #1de9b6);
+@mixin bg-gradient($color-start: $brand-info , $color-stop: $brand-secondary, $direction: right){
+  background-image: linear-gradient(to $direction, $color-start, $color-stop);
 }
 
 @import "mixins/dash";

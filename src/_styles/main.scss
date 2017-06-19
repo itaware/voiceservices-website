@@ -1,8 +1,11 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
 
+
+
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@import 'node_modules/font-awesome/css/font-awesome';
 
 // variables
 @import "variables";
@@ -25,3 +28,14 @@
 
 // global
 @import "global/text";
+@import "global/block";
+@import "global/background";
+
+
+
+
+// script-js
+@import '../_scripts/timeline/timeline';
+
+
+

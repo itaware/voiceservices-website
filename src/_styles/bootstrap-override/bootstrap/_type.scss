@@ -9,9 +9,26 @@ h2{
   &:before{
     content: "";
     @include dash();
+    font-size: $font-size-base;
     display:inline-block;
     vertical-align: top;
     margin-top: 15px;
     margin-right: 15px;
+  }
+}
+
+ul.styled{
+  position: relative;
+  padding-left: 25px;
+  li{
+    list-style: none;
+    &:before{
+      content: "•";
+      position: absolute;
+      left: 0;
+      line-height: 20px;
+      font-size: 35px;
+      color: $brand-secondary;
+    }
   }
 }

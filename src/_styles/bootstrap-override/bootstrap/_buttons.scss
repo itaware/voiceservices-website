@@ -2,12 +2,48 @@
   @include button-variant($brand-primary, #fff , #fff);
 }
 .btn-rounded{
-  margin: 15px 15px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  //margin: 15px 15px;
   border-radius: 50%;
+  text-align: center;
   &.btn-lg{
     width: 100px;
     height: 100px;
     padding: 15px;
     line-height: 100px;
   }
+  span{
+    top: 0;
+    vertical-align: middle;
+  }
+}
+
+.btn-gradient{
+  position: relative;
+  background: #fff;
+  cursor:pointer;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    border-radius: 50%;
+    @include bg-gradient();
+  }
+
+  &.bg-primary{
+    background: $brand-primary;
+    color: #fff;
+  }
+}
+.btn-space-left{
+  margin-left: 15px;
+}
+.btn-space{
+  margin: 15px;
 }
