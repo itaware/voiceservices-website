@@ -7,3 +7,33 @@
     font-size: 12px;
   }
 }
+.block-icon{
+  z-index: 0;
+  padding-bottom: 80px;
+
+  &-title{
+    margin: 15px 0;
+    font-size: 17px;
+  }
+  &-desc{
+    flex-grow: 100;
+    color: #acb8c3;
+  }
+  .btn {
+    margin-top: 25px;
+  }
+}
+
+.container-block-flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  .block-flex{
+    &-inner{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+}

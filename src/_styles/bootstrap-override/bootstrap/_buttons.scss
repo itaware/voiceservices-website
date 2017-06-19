@@ -20,9 +20,11 @@
   }
 }
 
-.btn-gradient{
+.btn-icon-gradient{
   position: relative;
   background: #fff;
+  padding: 0;
+  border: 0;
   cursor:pointer;
   &:before{
     content: "";

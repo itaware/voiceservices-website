@@ -100,7 +100,8 @@
             <img src="{{baseUrl}}images/social/messenger.png" alt="Messenger" title="Messenger" class="img-responsive"/>
           </div>
           <div class="btn btn-white btn-rounded btn-space btn-lg">
-            <img src="{{baseUrl}}images/social/whatsapp.png" alt="whatsapp" title="whatsapp" class="img-responsive"/></div>
+            <img src="{{baseUrl}}images/social/whatsapp.png" alt="whatsapp" title="whatsapp" class="img-responsive"/>
+          </div>
         </div>
       </div>
     </div>
@@ -114,16 +115,18 @@
           <div class="timeline-end"></div>
         </div>
         <div class="timeline-item">
-          <div class="timeline-point bg-faded no-padding"><img src="{{baseUrl}}images/process/conception.svg" alt="Conception"/></div>
+          <div class="timeline-point bg-faded no-padding">
+            <img src="{{baseUrl}}images/process/conception.svg" alt="Conception"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
             Conception - Design
-            <span class="btn-rounded btn-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
+            <span class="btn-rounded btn-icon-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
               <span class="fa fa-plus"></span>
             </span>
           </div>
           <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
-              <div class="pull-right button-close visible-xs visible-sm btn-rounded btn-gradient btn-space-left"><span class="glyphicon glyphicon-remove"></span></div>
+              <div class="pull-right button-close visible-xs visible-sm btn-rounded btn-icon-gradient btn-space-left">
+                <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
                 Une interface conversationnelle est un nouvel usage qui implique une approche très nouvelle dans la
                 relation avec vos clients.
@@ -143,16 +146,18 @@
           </div>
         </div>
         <div class="timeline-item clearfix">
-          <div class="timeline-point bg-faded no-padding"><img src="{{baseUrl}}images/process/prototypage.svg" alt="Conception"/></div>
+          <div class="timeline-point bg-faded no-padding">
+            <img src="{{baseUrl}}images/process/prototypage.svg" alt="Prototypage"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
             Prototypage
-            <span class="btn-rounded btn-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
+            <span class="btn-rounded btn-icon-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
               <span class="fa fa-plus"></span>
             </span>
           </div>
-          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal" >
+          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
-              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-gradient btn-space-left"><span class="glyphicon glyphicon-remove"></span></div>
+              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-icon-gradient btn-space-left">
+                <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
                 Test & Learn
               </div>
@@ -171,16 +176,18 @@
           </div>
         </div>
         <div class="timeline-item clearfix">
-          <div class="timeline-point bg-faded no-padding"><img src="{{baseUrl}}images/process/prototypage.svg" alt="Conception"/></div>
+          <div class="timeline-point bg-faded no-padding">
+            <img src="{{baseUrl}}images/process/integration.svg" alt="Intégration"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
             Intégration
-            <span class="btn-rounded btn-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
+            <span class="btn-rounded btn-icon-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
               <span class="fa fa-plus"></span>
             </span>
           </div>
-          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal" >
+          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
-              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-gradient btn-space-left"><span class="glyphicon glyphicon-remove"></span></div>
+              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-icon-gradient btn-space-left">
+                <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
                 Chaque interface conversationnelle nécessite d’interagir avec votre système d’information
               </div>
@@ -200,18 +207,21 @@
           </div>
         </div>
         <div class="timeline-item clearfix">
-          <div class="timeline-point bg-faded no-padding"><img src="{{baseUrl}}images/process/prototypage.svg" alt="Conception"/></div>
+          <div class="timeline-point bg-faded no-padding">
+            <img src="{{baseUrl}}images/process/experimentation.svg" alt="Expérimentation"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
             Expérimentation
-            <span class="btn-rounded btn-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
+            <span class="btn-rounded btn-icon-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
               <span class="fa fa-plus"></span>
             </span>
           </div>
-          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal" >
+          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
-              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-gradient btn-space-left"><span class="glyphicon glyphicon-remove"></span></div>
+              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-icon-gradient btn-space-left">
+                <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
-                Pour obtenir la meilleure expérience utilisateur possible il est indispensable de valider les scénarios en réel avec des cohortes d’utilisateurs
+                Pour obtenir la meilleure expérience utilisateur possible il est indispensable de valider les scénarios
+                en réel avec des cohortes d’utilisateurs
               </div>
               <div class="dash bg-info"></div>
               <ul class="styled">
@@ -224,16 +234,18 @@
           </div>
         </div>
         <div class="timeline-item clearfix">
-          <div class="timeline-point bg-faded no-padding"><img src="{{baseUrl}}images/process/prototypage.svg" alt="Conception"/></div>
+          <div class="timeline-point bg-faded no-padding">
+            <img src="{{baseUrl}}images/process/implementation.svg" alt="Implémentation"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
             Implémentation
-            <span class="btn-rounded btn-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
+            <span class="btn-rounded btn-icon-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
               <span class="fa fa-plus"></span>
             </span>
           </div>
-          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal" >
+          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
-              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-gradient btn-space-left"><span class="glyphicon glyphicon-remove"></span></div>
+              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-icon-gradient btn-space-left">
+                <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
                 Du prototype à la finalisation
               </div>
@@ -245,24 +257,28 @@
                 </li>
                 <li>Réalisation de tests pour <span class="text-semibold">s’assurer de la fiabilité
                   et gérer les évolutions futures sans endommager</span>
-                  l’existant</li>
+                  l’existant
+                </li>
               </ul>
             </div>
           </div>
         </div>
         <div class="timeline-item clearfix">
-          <div class="timeline-point bg-faded no-padding"><img src="{{baseUrl}}images/process/prototypage.svg" alt="Conception"/></div>
+          <div class="timeline-point bg-faded no-padding">
+            <img src="{{baseUrl}}images/process/deploiement.svg" alt="Déploiement"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
             Déploiement
-            <span class="btn-rounded button-close btn-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
+            <span class="btn-rounded button-close btn-icon-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary">
               <span class="fa fa-plus"></span>
             </span>
           </div>
-          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal" >
+          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
-              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-gradient btn-space-left"><span class="glyphicon glyphicon-remove"></span></div>
+              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-icon-gradient btn-space-left">
+                <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
-                Une fois validée et testée votre interface conversationnelle se doit d’être robuste, efficace et surtout visible
+                Une fois validée et testée votre interface conversationnelle se doit d’être robuste, efficace et surtout
+                visible
               </div>
               <div class="dash bg-info"></div>
               <ul class="styled">
@@ -281,19 +297,23 @@
               </ul>
             </div>
           </div>
-        </div><div class="timeline-item clearfix">
-          <div class="timeline-point bg-faded no-padding"><img src="{{baseUrl}}images/process/prototypage.svg" alt="Conception"/></div>
+        </div>
+        <div class="timeline-item clearfix">
+          <div class="timeline-point bg-faded no-padding">
+            <img src="{{baseUrl}}images/process/maintenance.svg" alt="Maintenance"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
             Maintenance évolutive
-            <span class="btn-rounded btn-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary ">
+            <span class="btn btn-rounded btn-icon-gradient btn-space-left visible-xs-inline-block visible-sm-inline-block bg-primary ">
               <span class="fa fa-plus"></span>
             </span>
           </div>
-          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal" >
+          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
-              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-gradient btn-space-left"><span class="glyphicon glyphicon-remove"></span></div>
+              <div class="pull-right button-close visible-xs visible-sm  btn-rounded btn-icon-gradient btn-space-left">
+                <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
-                Ce nouvel usage implique une forme d’interaction avec vos clients beaucoup plus large et du coup beaucoup plus complexe
+                Ce nouvel usage implique une forme d’interaction avec vos clients beaucoup plus large et du coup
+                beaucoup plus complexe
               </div>
               <div class="dash bg-info"></div>
               <ul class="styled">
@@ -310,11 +330,127 @@
         </div>
       </div>
     </div>
-
   </section>
   <section id="metiers" class="bg-primary">
     <div class="container">
       <h2>Métiers</h2>
+      <div class="container-block-flex">
+
+          <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+            <div class="block-flex-inner">
+              <img src="{{baseUrl}}images/metiers/domotique.svg" alt="Domotique - iot"/>
+              <div class="block-icon-title text-semibold text-uppercase">Domotique - iot</div>
+              <div class="block-icon-desc">Développez des services innovants autour de l’IoT (objets connectés) pour,
+                par
+                exemple, le pilotage de maison, d’usine, la smart city
+              </div>
+              <div class="block-icon-btn">
+                <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                  <span class="fa fa-plus"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/hotellerie.svg" alt="Hôtellerie & restauration"/>
+            <div class="block-icon-title text-semibold text-uppercase">Hôtellerie & Restauration</div>
+            <div class="block-icon-desc">Offrez la possibilité de vérifier et affiner les réservations, facilitez la
+              réservation d’une table pour votre restaurant.
+            </div>
+            <div class="block-icon-btn"><a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+              <span class="fa fa-plus"></span> </a></div>
+          </div>
+        </div>
+
+        <div class="block-flex block-icon  col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/sante.svg" alt="Santé"/>
+            <div class="block-icon-title text-semibold text-uppercase">Santé</div>
+            <div class="block-icon-desc">Offrez une assistance aux professionnels de santé pour rédiger leur compte
+              rendu
+              et compléter le dossier médical de leurs patients.
+            </div>
+            <div class="block-icon-btn">
+              <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/sante.svg" alt="Santé"/>
+            <div class="block-icon-title text-semibold text-uppercase">E-commerce</div>
+            <div class="block-icon-desc">Facilitez la prise de commande sur votre site d’achats en ligne et offrez une
+              expérience d’achat simplifiée et singulière à vos clients.
+            </div>
+            <div class="block-icon-btn">
+              <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/logistique.svg" alt="Logistique"/>
+            <div class="block-icon-title text-semibold text-uppercase">Logistique</div>
+            <div class="block-icon-desc">Développez des services pour piloter l’organisation de votre société et
+              optimisez vos processus.
+            </div>
+            <div class="block-icon-btn">
+              <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/vente.svg" alt="Vente à emporter"/>
+            <div class="block-icon-title text-semibold text-uppercase">Vente à emporter</div>
+            <div class="block-icon-desc">Facilitez la prise de commande distante et augmentez le panier moyen de vos
+              consommateurs.
+            </div>
+            <div class="block-icon-btn">
+              <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/transport.svg" alt="Transport & Livraison"/>
+            <div class="block-icon-title text-semibold text-uppercase">Transport & Livraison</div>
+            <div class="block-icon-desc">Développez la capacité d’interaction avec vos clients pour rassurer sur la
+              prise en charge et la livraison.
+            </div>
+            <div class="block-icon-btn">
+              <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/aide-support.svg" alt="Aide support"/>
+            <div class="block-icon-title text-semibold text-uppercase">Aide support</div>
+            <div class="block-icon-desc">Offrez à vos clients une aide permanente automatisée et simple d’utilisation
+              pour vos produits et services sans coûts supplémentaires
+            </div>
+            <div class="block-icon-btn">
+              <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
     </div>
   </section>
 </div>
