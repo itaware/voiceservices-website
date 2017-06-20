@@ -1,5 +1,12 @@
+.btn{
+  padding: 10px 25px;
+  line-height: 30px;
+}
 .btn-white{
   @include button-variant($brand-primary, #fff , #fff);
+}
+.btn-outline-white{
+  @include button-variant(#fff ,$brand-primary,  #fff);
 }
 .btn-circle{
   width: 25px;
@@ -8,6 +15,12 @@
   //margin: 15px 15px;
   border-radius: 50%;
   text-align: center;
+  &.btn-sm{
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    line-height: 35px;
+  }
   &.btn-lg{
     width: 100px;
     height: 100px;
@@ -19,14 +32,40 @@
     vertical-align: middle;
   }
 }
-.btn-rounded{
-  padding: 15px 20px;
-  border-radius: 2.5em;
-}
 .btn-gradient{
-  border: 0;
+  border:0;
+  position: relative;
   @include bg-gradient();
-  color:#fff;
+  color:#fff !important;
+  .icon,
+  .fa,
+  .glyphicon{
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: -15px;
+    line-height: 30px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  &:hover,
+  &:focus{
+    color: inherit;
+    @include bg-gradient();
+    &:before{
+      content: "";
+      position: absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      left: 0;
+      border-radius: inherit;
+      border: 3px solid rgba(255, 255, 255, 0.37)
+    }
+
+  }
 }
 
 .btn-icon-gradient{

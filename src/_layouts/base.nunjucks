@@ -53,7 +53,33 @@
   </nav>
 </header>
 {% block content %}{% endblock %}
+<footer class="section bg-primary clearfix">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="btn-contact col-xs-12 col-sm-6 text-center">
+      <p class="text-semibold">Vous souhaitez être rappelé ?</p>
+      <a href="#" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>être rappelé</a>
+    </div>
+    <div class="btn-contact col-xs-12 col-sm-6 text-center">
+      <p class="text-semibold">Vous souhaitez nous contacter par mail ?</p>
+      <a href="#" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>contact mail</a>
+    </div>
+  </div>
+  <hr/>
+  <div class="footer-legal container small">
+    <div class="pull-left">
+      Voice © • Marque(s) & Concept Liberty Finances, Sarl au capital de 1.000.000 d’euros
+      <a href="#" class="link-footer text-uppercase text-white">Mentions légales</a>
+    </div>
+    <div class="pull-right">
+      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-facebook"> </span></a>
+      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-twitter"> </span></a>
+      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-linkedin"> </span></a>
+      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-google-plus"> </span></a>
+    </div>
+  </div>
 
+</footer>
 <script src="{{baseUrl}}scripts/main.js"></script>
 {% block scripts %}{% endblock %}
 </body>

@@ -6,6 +6,8 @@
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 @import 'node_modules/font-awesome/css/font-awesome';
+@import 'iconfont';
+
 
 // variables
 @import "variables";
@@ -20,11 +22,13 @@
 // layout
 @import "layout/header";
 @import "layout/section";
+@import "layout/footer";
 
 // component
 @import "component/block";
 @import "component/slide";
 @import "component/blockquote";
+
 
 // global
 @import "global/text";

@@ -8,6 +8,14 @@ $brand-secondary:                   #1de9b6;
 //## Font, line-height, and color for body text, headings, and more.
 $font-family-sans-serif:  "Raleway", Helvetica, Arial, sans-serif;
 $line-height-base:        1.5;
+$font-size-base:          16px;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+$btn-border-radius-base:          2.5em;
+
+
 //== Iconography
 //
 //$icon-font-path: '../node_modules/bootstrap-sass/assets/fonts/';

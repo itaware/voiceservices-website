@@ -48,7 +48,7 @@
   </section>
   <section class="container">
     <div class="col-xs-12 col-sm-6">
-      <img src="{{baseUrl}}images/composition-produit.jpg" alt="Composition produit"/>
+      <img src="{{baseUrl}}images/composition-produit.jpg" alt="Composition produit" class="img-responsive" />
     </div>
     <div class="col-xs-12 col-sm-6">
       <div class="dash"></div>
@@ -532,7 +532,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class="clearfix">
     <div class="container">
       <h2>Voice service partner program</h2>
     </div>
