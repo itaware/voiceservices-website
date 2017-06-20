@@ -14,6 +14,8 @@
         les experts de l'interface conversationnelle
         <br>
         pour les professionnels
+        <br>
+        <span style="font-size: 12px;">chatbots + voix</span>
       </p>
     </div>
     <a href="#enjeux" class="btn btn-scrolldown">
@@ -26,10 +28,10 @@
       <blockquote>
         <span class="twa twa-speech-balloon"></span>
         <div class="text">
-          “ C'est un changement radical de la façon de consommer Internet. ”
+          “ #VoiceFirst est un changement radical de la façon de consommer Internet. ”
         </div>
         <div class="author">
-          Franck • CEO voice services
+          Franck • CEO Voice Services
         </div>
       </blockquote>
       <p>
@@ -62,7 +64,7 @@
         instantanée) et les terminaux voix type
         <span class="text-semibold">Google Home, Amazon Echo (Alexa), Home Pod, Facebook Messenger.</span>
       </p>
-      <p>Grâce aux avancées technologique en terme d’intelligence artificielle et de machine learning, ces interfaces
+      <p>Grâce aux avancées technologiques en terme d’intelligence artificielle et de machine learning, ces interfaces
         sont en mesure de reconnaître la voix et d’interpréter le langage naturel.</p>
       <p>Ce nouvel usage, extrêmement intuitif, offre des possibilités révolutionnaires pour <span
         class="text-semibold">diffuser et vendre vos produits et services.</span></p>
@@ -74,20 +76,19 @@
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <p>
-            Grâce à notre expertise des interfaces conversationnelles nous vous proposons de concevoir vos scénarios
+            Grâce à notre expertise des interfaces conversationnelles nous vous proposons de vous accompagner et concevoir vos scénarios
             d’interactions avec vos produits et services et de les déployer sur notre plateforme.
           </p>
           <p>
             Nous assurons la maintenance de vos interfaces tout en vous donnant accès au pilotage et à la supervision de
-            celles-ci via notre plate-forme.
+            celles-ci via notre plateforme.
           </p>
           <p>
             Nous développons des interfaces conversationnelles pour tous secteurs d’activité.
           </p>
           <p>
-            Cette approche transversale nous permet, via notre plateforme intégrant de l’intelligence artificielle et du
-            machine learning, de pouvoir créer des interfaces conversationnelles intelligentes capable de lier les
-            services entre eux <span
+            Notre approche transversale, intégrant l’intelligence artificielle, le
+            machine learning et le data management, nous permet de créer des interfaces conversationnelles intelligentes <span
             class="text-semibold">pour une expérience utilisateur toujours plus pertinente.</span>
           </p>
         </div>
@@ -178,6 +179,8 @@
                 <li>Définition avec nos équipes de designers des
                   hypothèses de scénarios <span class="text-semibold">les plus pertinents</span>
                 </li>
+                <li>Conception de l'<span class="text-semibold">architecture conversationnelle</span></li>
+                <li>Conception du <span class="text-semibold">wording sémantique</span></li>
                 <li>
                   Etablissement des <span class="text-semibold">spécifications techniques
                   et opérationnelles pour l’intégration des scénarios
@@ -202,16 +205,16 @@
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
               <div class="text-info text-sm">
-                Tester & apprendre
+                Tester & Apprendre
               </div>
               <div class="dash bg-faded"></div>
               <ul class="list-styled">
-                <li>Nous développons rapidement les premiers
+                <li>Développement rapide des premiers
                   prototypes <span class="text-semibold">pour valider les hypothèses d’interactions
                   avec vos clients</span>
                 </li>
                 <li>
-                  Nous définissons <span class="text-semibold">de façon plus précise</span> le niveau
+                  Définition <span class="text-semibold">de façon plus précise</span> du niveau
                   de service attendu
                 </li>
               </ul>
@@ -237,14 +240,14 @@
               </div>
               <div class="dash bg-info"></div>
               <ul class="list-styled">
-                <li>Nous mettons en place des <span class="semi-bold">APIs</span> (Application
+                <li>Analyse de votre système d'informations et de vos process de ventes</li>
+                <li>Mise en place des <span class="text-semibold">APIs</span> (Application
                   Programming Interfaces) pour communiquer entre
                   l’interface conversationnelle et votre système
                   d’information
                 </li>
                 <li>
-                  Notre expertise <span class="text-semibold">est spécialisée dans l’accompagnement
-                  et le développement de ce type d’intégration</span>
+                  <span class="text-semibold">Suivi et maintenance</span> de l’intégration
                 </li>
               </ul>
             </div>
@@ -270,10 +273,11 @@
               </div>
               <div class="dash bg-faded"></div>
               <ul class="list-styled">
-                <li>Nous réalisons une série d’expérimentations par
+                <li>Réalisation d'une série d’expérimentations par
                   itérations pour permettre <span class="text-semibold">d’affiner chaque scénario
                     au plus proche des attentes clients</span>
                 </li>
+                <li>Analyse des résultats à chaque fin d'itération et amélioration de l'interface conversationnelle</li>
               </ul>
             </div>
             <div class="icon-circle"><span>✔</span></div>
@@ -299,10 +303,10 @@
               <ul class="list-styled">
                 <li>Passage d’un prototype <span class="text-semibold">à un service professionnel
                   dédié et entièrement intégré à votre système
-                  d’information </span>
+                  d’information (CRM, ERP, données métiers, ...)</span>
                 </li>
                 <li>Réalisation de tests pour <span class="text-semibold">s’assurer de la fiabilité
-                  et gérer les évolutions futures sans endommager</span>
+                  et gérer les évolutions futures</span> en enrichissant
                   l’existant
                 </li>
               </ul>
@@ -323,21 +327,18 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-sm">
-                Une fois validée et testée votre interface conversationnelle se doit d’être robuste, efficace et surtout
+              <div class="text-info text-sm">
+                Une fois validée et testée votre interface conversationnelle se doit d’être fiable, efficace et surtout
                 visible
               </div>
               <div class="dash bg-faded"></div>
               <ul class="list-styled">
-                <li>Nous déployons votre interface conversationnelle
+                <li>Déploiement de votre interface conversationnelle
                   <span class="text-semibold">sur toutes les plateformes notamment Google
                   et Amazon</span>
                 </li>
-                <li>Notre plate-forme s’appuyant <span class="text-semibold">sur les meilleurs outils
-                  du marché</span> vous permettra d’obtenir une qualité
-                  de service <span class="text-semibold">répondant aux attentes de vos clients</span></li>
                 <li>
-                  Notre expertise vous permettra <span class="text-semibold">d’être propulsé
+                  Expertise marketing pour vous permettre <span class="text-semibold">d’être propulsé
                   au niveau des interfaces conversationnelles
                   les plus en vue</span>
                 </li>
@@ -365,9 +366,10 @@
               </div>
               <div class="dash bg-info"></div>
               <ul class="list-styled">
-                <li> Il est indispensable de s’appuyer sur <span class="text-semibold">un partenaire
-                  expert</span> pour vous permettre de <span class="text-semibold">faire évoluer
-                  votre interface conversationnelle</span> au gré de l’évolution
+                <li>Administation et analyse des données échanges via notre plateforme en s’appuyant <span class="text-semibold">sur les meilleurs outils
+                  du marché</span> pour obtenir une qualité
+                  de service <span class="text-semibold">répondant aux attentes de vos clients</span></li>
+                <li>Suivi mensuel d'un expert dédié vous permettant de faire évoluer et d'améliorer votre interface conversationnelle au gré de l’évolution
                   des usages et à l’apprentissage au travers de
                   l’<span class="text-semibold">intelligence artificielle</span> et du <span class="text-semibold">machine learning</span> alimentés
                   par les données de vos clients.
@@ -383,15 +385,14 @@
   <section id="metiers" class="bg-primary">
     <div class="container">
       <h2>Métiers</h2>
+      <h3 style="color: white; font-size: 16px;">"Nos experts imaginerons et créerons pour vous et avec vous les usages futurs de votre métier"</h3>
       <div class="container-block-flex">
 
           <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
             <div class="block-flex-inner">
               <img src="{{baseUrl}}images/metiers/domotique.svg" alt="IoT - Domotique"/>
               <div class="block-icon-title text-semibold text-uppercase">IoT - Domotique</div>
-              <div class="block-icon-desc">Développez des services innovants autour de l’IoT (objets connectés) pour,
-                par
-                exemple, le pilotage de maison, d’usine, la smart city
+              <div class="block-icon-desc">Développez des services innovants autour de l’IoT (objets connectés) pour le pilotage de la maison, l'usine, la smart city...
               </div>
               <div class="block-icon-btn">
                 <a href="#" class="btn btn-circle btn-icon-gradient bg-primary">
@@ -506,34 +507,18 @@
     </div>
     <div class="tab-accordion">
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
-        <a href="#creation-interface-conversationnelle">Création de votre interface conversationnelle</a>
-      </div>
-      <div class="tab-accordion-content" id="creation-interface-conversationnelle">
-        <div class="tab-img hidden-xs col-sm-7">
-          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
-        </div>
-        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
-          <p class="text-info h3 text-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
-            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
-          </p>
-          <div class="text-right">
-            <a href="#" class="btn btn-icon-gradient btn-circle"><span class="fa fa-plus"></span></a>
-          </div>
-        </div>
-      </div>
-      <div class="tab-accordion-title text-uppercase text-semibold text-center">
-        <a href="#platerform-datas">Plateform & Datas</a>
+        <a href="#platerform-datas">Plateforme & Datas</a>
       </div>
       <div class="tab-accordion-content" id="platerform-datas">
         <div class="tab-img hidden-xs col-sm-7">
           <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
-          <p class="text-info">Plateform & Datas sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
-            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
-          </p>
+          <p class="text-info">VoiceServices vous donne accès à une plate-forme d’administration de vos interfaces conversationnelles</p>
+          <p>Analyse des interactions clients, statistiques d’utilisations, paramétrage de vos interfaces, extraction de données...
+Notre plate-forme vous permet de <span class="text-semibold">capitaliser sur les données</span> échangées et ainsi de pouvoir vous aider à <span class="text-semibold">améliorer l’expérience utilisateur</span> au plus près des attentes de vos clients et à optimiser vos ventes de produits et services.
+Ceci est possible grâce à des algorithmes d’intelligence artificielle qui analysent les conversations archivées pour vous aider à analyser celles-ci et vous suggérer des options d’améliorations.
+        </p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -572,10 +557,11 @@
           <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
-          <p class="text-info">Voice Business consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
-            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
-          </p>
+          <p class="text-info">En plus d’une interface d’analyse et d’administration vous avez aussi la capacité d’interagir de manière transversale sur d’autres interfaces conversationnelles</p>
+          <p>Ceci pour promouvoir auprès des utilisateurs vos produits et services.
+Notre service marketing dédié Voice Business vous permet d’intégrer une de nos interfaces conversationnelles ou celles de nos partenaires pour promouvoir, informer et positionner au premier plan vos produits et services. 
+Par exemple une interface conversationnelle dédiée aux recettes de cuisine peut renvoyer de l’information sur un service partenaire qui vend des produits alimentaires.
+        </p>
         </div>
       </div>
     </div>
