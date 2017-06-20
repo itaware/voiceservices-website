@@ -9,13 +9,12 @@
       <img src="{{baseUrl}}images/voice-logo-final-2.png"
         srcset="{{baseUrl}}images/voice-logo-final-2@2x.png 2x,
              {{baseUrl}}images/voice-logo-final-2@3x.png 3x"
-        class="Voice-logo-final-2">
-      <div class="slide-text">
-        <p>crée pour vous, avec vous,</p>
-        <p>
-          des interfaces conversationnelles pour les professionnels.
-        </p>
-      </div>
+           class="Voice-logo-final-2">
+      <p>
+        les experts de l'interface conversationnelle
+        <br>
+        pour les professionnels
+      </p>
     </div>
     <a href="#enjeux" class="btn btn-scrolldown">
       <span class="fa fa-angle-down"></span>
@@ -45,8 +44,8 @@
       </div>
     </div>
     <div class="col-xs-12 col-sm-5">
-      <div class=" text-semibold text-uppercase">ASSITANTS VIRTUELS :</div>
-      <p class="text-medium ">un enol des utilisateurs...En millions, dans le monde.</p>
+      <div class=" text-semibold text-uppercase">ASSISTANTS VIRTUELS :</div>
+      <p class="text-medium ">Un envol des utilisateurs... En millions, dans le monde.</p>
       <small class="text-gray">Source Les Echos / Juniper Research</small>
 
       <img src="{{baseUrl}}images/graphique.jpg" alt="Graphique" class="img-responsive"/>
@@ -171,17 +170,17 @@
                 <span class="glyphicon glyphicon-remove"></span>
               </div>
               <div class="text-info text-sm">
-                Une interface conversationnelle est un nouvel usage qui implique une approche très nouvelle dans la
+                Une interface conversationnelle est un nouvel usage qui implique une approche totalement différente dans la
                 relation avec vos clients.
               </div>
               <div class="dash bg-info"></div>
-              <ul class="list-styled">
-                <li>Définission avec nos équipes de designers des
+              <ul class="styled">
+                <li>Définition avec nos équipes de designers des
                   hypothèses de scénarios <span class="text-semibold">les plus pertinents</span>
                 </li>
                 <li>
-                  Etablissement d’un <span class="text-semibold">cahier des charges technique
-                  et opérationnel pour l’intégration des scénarios
+                  Etablissement des <span class="text-semibold">spécifications techniques
+                  et opérationnelles pour l’intégration des scénarios
                   dans votre système d’information</span>
                 </li>
               </ul>
@@ -202,14 +201,14 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="ext-sm">
-                Test & Learn
+              <div class="text-info text-sm">
+                Tester & apprendre
               </div>
               <div class="dash bg-faded"></div>
               <ul class="list-styled">
                 <li>Nous développons rapidement les premiers
                   prototypes <span class="text-semibold">pour valider les hypothèses d’interactions
-                  avec les cients</span>
+                  avec vos clients</span>
                 </li>
                 <li>
                   Nous définissons <span class="text-semibold">de façon plus précise</span> le niveau
@@ -339,7 +338,7 @@
                   de service <span class="text-semibold">répondant aux attentes de vos clients</span></li>
                 <li>
                   Notre expertise vous permettra <span class="text-semibold">d’être propulsé
-                  au niveaux des interfaces conversationnelles
+                  au niveau des interfaces conversationnelles
                   les plus en vue</span>
                 </li>
               </ul>
@@ -367,10 +366,10 @@
               <div class="dash bg-info"></div>
               <ul class="list-styled">
                 <li> Il est indispensable de s’appuyer sur <span class="text-semibold">un partenaire
-                  expert</span> pour vous permettre de faire évoluer
-                  votre interface conversationnelle au gré de l’évolution
+                  expert</span> pour vous permettre de <span class="text-semibold">faire évoluer
+                  votre interface conversationnelle</span> au gré de l’évolution
                   des usages et à l’apprentissage au travers de
-                  l’intelligence artificielle et le machine learning alimentés
+                  l’<span class="text-semibold">intelligence artificielle</span> et du <span class="text-semibold">machine learning</span> alimentés
                   par les données de vos clients.
                 </li>
               </ul>
@@ -386,21 +385,21 @@
       <h2>Métiers</h2>
       <div class="container-block-flex">
 
-        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
-          <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/domotique.svg" alt="Domotique - iot"/>
-            <div class="block-icon-title text-semibold text-uppercase">Domotique - iot</div>
-            <div class="block-icon-desc">Développez des services innovants autour de l’IoT (objets connectés) pour,
-              par
-              exemple, le pilotage de maison, d’usine, la smart city
-            </div>
-            <div class="block-icon-btn">
-              <a href="#" class="btn btn-circle btn-icon-gradient bg-primary">
-                <span class="fa fa-plus"></span>
-              </a>
+          <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+            <div class="block-flex-inner">
+              <img src="{{baseUrl}}images/metiers/domotique.svg" alt="IoT - Domotique"/>
+              <div class="block-icon-title text-semibold text-uppercase">IoT - Domotique</div>
+              <div class="block-icon-desc">Développez des services innovants autour de l’IoT (objets connectés) pour,
+                par
+                exemple, le pilotage de maison, d’usine, la smart city
+              </div>
+              <div class="block-icon-btn">
+                <a href="#" class="btn btn-circle btn-icon-gradient bg-primary">
+                  <span class="fa fa-plus"></span>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
             <img src="{{baseUrl}}images/metiers/hotellerie.svg" alt="Hôtellerie & restauration"/>
