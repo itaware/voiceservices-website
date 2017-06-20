@@ -1,0 +1,13 @@
+.half-container {
+  @include container-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm / 2;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md / 2;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg / 2;
+  }
+}
