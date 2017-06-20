@@ -26,6 +26,7 @@
   padding: 0;
   border: 0;
   cursor:pointer;
+  transition: background 0.3s;
   &:before{
     content: "";
     position: absolute;
@@ -41,6 +42,9 @@
   &.bg-primary{
     background: $brand-primary;
     color: #fff;
+  }
+  &:hover{
+    background: transparent !important;
   }
 }
 .btn-space-left{

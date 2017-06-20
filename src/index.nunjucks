@@ -7,9 +7,9 @@
   <header id="a-propos" class="content-header-slide">
     <div class="content-header-slide--content text-center text-uppercase">
       <img src="{{baseUrl}}images/voice-logo-final-2.png"
-           srcset="{{baseUrl}}images/voice-logo-final-2@2x.png 2x,
+        srcset="{{baseUrl}}images/voice-logo-final-2@2x.png 2x,
              {{baseUrl}}images/voice-logo-final-2@3x.png 3x"
-           class="Voice-logo-final-2">
+        class="Voice-logo-final-2">
       <p>crée pour vous, avec vous,</p>
       <p>
         des interfaces conversationnelles pour les professionnels.
@@ -54,7 +54,8 @@
       <div class="dash"></div>
       <p>
         Les interfaces conversationnelles regroupent les chatbots (interactions avec un robot via la messagerie
-        instantanée) et les terminaux voix type <span class="text-semibold">Google Home, Amazon Echo (Alexa), Home Pod, Facebook Messenger.</span>
+        instantanée) et les terminaux voix type
+        <span class="text-semibold">Google Home, Amazon Echo (Alexa), Home Pod, Facebook Messenger.</span>
       </p>
       <p>Grâce aux avancées technologique en terme d’intelligence artificielle et de machine learning, ces interfaces
         sont en mesure de reconnaître la voix et d’interpréter le langage naturel.</p>
@@ -336,21 +337,21 @@
       <h2>Métiers</h2>
       <div class="container-block-flex">
 
-          <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
-            <div class="block-flex-inner">
-              <img src="{{baseUrl}}images/metiers/domotique.svg" alt="Domotique - iot"/>
-              <div class="block-icon-title text-semibold text-uppercase">Domotique - iot</div>
-              <div class="block-icon-desc">Développez des services innovants autour de l’IoT (objets connectés) pour,
-                par
-                exemple, le pilotage de maison, d’usine, la smart city
-              </div>
-              <div class="block-icon-btn">
-                <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
-                  <span class="fa fa-plus"></span>
-                </a>
-              </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <img src="{{baseUrl}}images/metiers/domotique.svg" alt="Domotique - iot"/>
+            <div class="block-icon-title text-semibold text-uppercase">Domotique - iot</div>
+            <div class="block-icon-desc">Développez des services innovants autour de l’IoT (objets connectés) pour,
+              par
+              exemple, le pilotage de maison, d’usine, la smart city
+            </div>
+            <div class="block-icon-btn">
+              <a href="#" class="btn btn-rounded btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
             </div>
           </div>
+        </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
             <img src="{{baseUrl}}images/metiers/hotellerie.svg" alt="Hôtellerie & restauration"/>
@@ -448,8 +449,86 @@
             </div>
           </div>
         </div>
-
-
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="container">
+      <h2>Services</h2>
+    </div>
+    <div class="tab-accordion">
+      <div class="tab-accordion-title text-uppercase text-semibold text-center">
+        <a href="#creation-interface-conversationnelle">Création de votre interface conversationnelle</a>
+      </div>
+      <div class="tab-accordion-content" id="creation-interface-conversationnelle">
+        <div class="tab-img hidden-xs col-sm-7">
+          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+        </div>
+        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+          <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
+            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
+          </p>
+          <div class="text-right">
+            <a href="#" class="btn btn-icon-gradient btn-rounded"><span class="fa fa-plus"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-accordion-title text-uppercase text-semibold text-center">
+        <a href="#platerform-datas">Plateform & Datas</a>
+      </div>
+      <div class="tab-accordion-content" id="platerform-datas">
+        <div class="tab-img hidden-xs col-sm-7">
+          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+        </div>
+        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+          <p class="text-info">Plateform & Datas sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
+            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
+          </p>
+        </div>
+      </div>
+      <div class="tab-accordion-title text-uppercase text-semibold text-center">
+        <a href="#technologie-devices">Technologies & Devices</a>
+      </div>
+      <div class="tab-accordion-content" id="technologie-devices">
+        <div class="tab-img hidden-xs col-sm-7">
+          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+        </div>
+        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+          <p class="text-info">Technologies & Devices consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
+            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
+          </p>
+        </div>
+      </div>
+      <div class="tab-accordion-title text-uppercase text-semibold text-center">
+        <a href="#ai-machine-learning">AI & Machine learning</a>
+      </div>
+      <div class="tab-accordion-content" id="ai-machine-learning">
+        <div class="tab-img hidden-xs col-sm-7">
+          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+        </div>
+        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+          <p class="text-info">AI & Machine learning consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
+            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
+          </p>
+        </div>
+      </div>
+      <div class="tab-accordion-title text-uppercase text-semibold text-center">
+        <a href="#voice-business">Voice Business</a>
+      </div>
+      <div class="tab-accordion-content" id="voice-business">
+        <div class="tab-img hidden-xs col-sm-7">
+          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+        </div>
+        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+          <p class="text-info">Voice Business consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
+            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
+          </p>
+        </div>
       </div>
     </div>
   </section>

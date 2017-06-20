@@ -1,0 +1,38 @@
+// Negative offset
+@mixin make-xs-negative-offset()
+{
+  @for $i from 0 through $grid-columns {
+    .col-xs-negative-offset-#{$i} {
+      margin-left: - percentage(($i / $grid-columns));
+    }
+  }
+
+}
+@mixin make-sm-negative-offset(){
+  @media(min-width: $screen-sm-min){
+    @for $i from 0 through $grid-columns {
+      .col-sm-negative-offset-#{$i}{
+        margin-left: - percentage(($i / $grid-columns));
+      }
+    }
+  }
+}
+@mixin make-md-negative-offset(){
+  @media(min-width: $screen-md-min){
+    @for $i from 0 through $grid-columns {
+      .col-md-negative-offset-#{$i}{
+        margin-left: - percentage(($i / $grid-columns));
+      }
+    }
+  }
+}
+@mixin make-lg-negative-offset(){
+  @media(min-width: $screen-lg-min){
+    @for $i from 0 through $grid-columns {
+      .col-lg-negative-offset-#{$i}{
+        margin-left: - percentage(($i / $grid-columns));
+      }
+    }
+  }
+}
+

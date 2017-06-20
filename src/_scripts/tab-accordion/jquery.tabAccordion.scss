@@ -1,0 +1,87 @@
+@import 'vars';
+
+.tab-accordion {
+  position: relative;
+  .tab-accordion-title{
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    background: #e7e7e7;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      @include bg-gradient();
+      transform: scaleX(0);
+      transform-origin: left center;
+    }
+    &.open{
+      background: #fff;
+      &:before{
+        transition: 0.3s;
+        transform: scale(1);
+      }
+    }
+    a{
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1.5;
+    }
+  }
+  .tab-accordion-content{
+    @include clearfix();
+    background: no-repeat left bottom;
+    background-size: 70% auto;
+    .tab-text{
+      margin-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+  &.tab-pos-bottom{
+    .container-tab-title{
+      background: #e7e7e7;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      .inner{
+        max-width: $container-desktop;
+        margin: auto;
+        display: table;
+      }
+      .title-tab{
+        display: table-cell;
+        &+.title-tab{
+          border-left: 3px solid #f0f0f0;
+        }
+      }
+
+
+    }
+  }
+  @media(min-width: $breakpoint) {
+    .tab-accordion-title{
+      height: 140px;
+      line-height: 140px;
+    }
+    .tab-accordion-content {
+      position: absolute;
+      opacity: 0;
+      width: 100%;
+      transition: opacity 0.5s;
+
+      &.open {
+        z-index: 10;
+        opacity: 1;
+      }
+    }
+  }
+
+  @media(max-width: $breakpoint-max) {
+    .tab-accordion-title {
+      width: 100%;
+    }
+  }
+}
