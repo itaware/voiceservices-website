@@ -11,7 +11,8 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
     return gulp.src([
       path.join(dirs.source, '**/*'),
       '!' + path.join(dirs.source, '{**/\_*,**/\_*/**}'),
-      '!' + path.join(dirs.source, '**/*.nunjucks')
+      '!' + path.join(dirs.source, '**/*.nunjucks'),
+      '!' + path.join(dirs.source, '**/*.md')
     ])
     .pipe(plugins.changed(dest))
     .pipe(gulp.dest(dest));
