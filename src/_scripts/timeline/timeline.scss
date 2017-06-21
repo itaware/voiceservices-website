@@ -11,9 +11,8 @@
     float: none;
     clear: both;
   }
-  @media(max-width: $mobile_breakpoint_max) {
+  @media(max-width: $screen-xs-max) {
     overflow: hidden;
-    margin-left: 15px;
   }
 }
 

@@ -12,6 +12,7 @@
   width: 25px;
   height: 25px;
   line-height: 25px;
+  padding: 0;
   //margin: 15px 15px;
   border-radius: 50%;
   text-align: center;
@@ -49,6 +50,7 @@
     vertical-align: middle;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
   }
   &:hover,
   &:focus{
@@ -105,4 +107,20 @@
 .twa + .btn{
   margin-left: 15px;
   vertical-align: super;
+}
+.btn-scrolldown{
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  font-size: 40px;
+  color: $brand-gray;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2)
 }

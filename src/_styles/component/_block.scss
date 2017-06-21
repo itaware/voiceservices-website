@@ -37,3 +37,71 @@
     }
   }
 }
+
+
+.block-contact-fixe{
+  position: fixed;
+  z-index: 1000;
+  a{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 6px;
+    text-align: left;
+    font-size: 22px;
+    //transition: all 1s;
+    .icon,
+    .fa,
+    .glyphicon{
+      margin: 0;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+    .btn-text{
+      display:inline-block;
+      width:0;
+      transition: width 0.8s;
+      transform-origin: left center;
+      span{
+        opacity: 0;
+      }
+    }
+
+  }
+
+  @media(min-width: $screen-sm-min){
+    right: 20px;
+    top: 50%;
+    text-align: right;
+    transform: translateY(-50%);
+
+    a:hover{
+      .btn-text{
+        font-size: $font-size-base;
+        width: 90px;
+        margin: 0 15px;
+        span{
+          transition: opacity 0.5s;
+          transition-delay: 0.3s;
+          opacity: 1;
+        }
+        //transition: all 1s;
+        //transform: scaleX(1);
+      }
+    }
+  }
+  @media(max-width: $screen-xs-max){
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $brand-primary;
+    text-align: center;
+    > div  {
+      display: inline-block;
+      padding: 0 15px;
+    }
+    + footer{
+      margin-bottom: 92px;
+    }
+  }
+}

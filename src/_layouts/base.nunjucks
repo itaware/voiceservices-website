@@ -53,6 +53,18 @@
   </nav>
 </header>
 {% block content %}{% endblock %}
+<div class="block-contact-fixe">
+  <div>
+    <a href="#" class="btn btn btn-gradient btn-rounded"><span class="fa fa-comments-o"></span><span class="btn-text"><span>chatter</span></span></a>
+  </div>
+  <div>
+    <a href="#" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>téléphone</span></span></a>
+  </div>
+  <div>
+    <a href="#" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>contact mail</span></span></a>
+  </div>
+
+</div>
 <footer id="contact" class="section bg-primary clearfix">
   <div class="container">
     <h2>Contact</h2>
