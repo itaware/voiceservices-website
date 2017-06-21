@@ -10,4 +10,7 @@
   @media (min-width: $screen-lg-min) {
     width: $container-lg / 2;
   }
+  @media (min-width: $screen-xl-min) {
+    width: $container-xl / 2;
+  }
 }

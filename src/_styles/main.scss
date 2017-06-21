@@ -28,6 +28,7 @@
 @import "component/block";
 @import "component/slide";
 @import "component/blockquote";
+@import "component/list-logo";
 
 
 // global
@@ -36,8 +37,12 @@
 @import "global/background";
 @import "global/half-container";
 
+// emoji
+@import "twemoji-awesome";
+
 // script-js
 @import '../_scripts/timeline/timeline';
 @import '../_scripts/tab-accordion/jquery.tabAccordion';
+
 
 

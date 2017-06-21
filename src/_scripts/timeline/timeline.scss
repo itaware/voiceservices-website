@@ -4,7 +4,7 @@
 //
 .container-timeline {
   position: relative;
-  padding: $timeline-margin 0;
+  padding: $timeline-margin-top 0 $timeline-margin-bottom;
   &:after {
     content: '';
     display: block;
@@ -12,6 +12,7 @@
     clear: both;
   }
   @media(max-width: $mobile_breakpoint_max) {
+    overflow: hidden;
     margin-left: 15px;
   }
 }
@@ -22,10 +23,11 @@
   position: absolute;
   z-index: 1;
   width: $timeline-width;
-  top: $timeline-margin + $timeline-item-padding-vertical;
-  bottom: $timeline-margin + $timeline-item-padding-vertical;
+  top: $timeline-margin-top + $timeline-item-padding-vertical;
+  bottom: $timeline-margin-bottom + $timeline-item-padding-vertical;
   text-align: center;
   overflow: hidden;
+  @include clearfix();
   &-start {
     margin-bottom: 20px;
     font-size: 18px;
@@ -78,16 +80,33 @@
   &-content {
     width: calc(100% - #{$timeline-width} / 2 - 60px);
     opacity: 0;
-    margin-top: 83px + $timeline-point-margin-between;
+    //margin-top: 73 + $timeline-point-margin-between;
+    position: absolute;
+    top: $timeline-point-margin-between + $timeline-item-padding-vertical + 73 + 64;
     transform: translateY(-50%);
     transition: all $timeline-item-transition;
     transition-delay: $timeline-point-transition-delay;
 
     &-inner {
-      padding: 15px 20px;
+      padding: 25px 35px;
       background: $timeline-content-bg;
       border-radius: 2em;
-      box-shadow: $timeline-content-shadow;
+      //box-shadow: $timeline-content-shadow;
+    }
+    @media(min-width: $screen-sm-min){
+      .icon-circle{
+        float: left;
+        width: 21px;
+        height: 21px;
+        line-height: 21px;
+        margin: 15px 0;
+        background: #fff;
+        border-radius: 50%;
+        color: $brand-info;
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+      }
     }
   }
   .block-indent {
@@ -108,19 +127,33 @@
   &:nth-child(odd) {
     clear: left;
     float: right;
+
     &.timeline-point, .timeline-point {
       float: left;
       transform: translateX(-50%);
-      + .timeline-point {
-        &:before,
-        &:after {
-          left: calc(100% + 15px);
-          right: auto;
-        }
-      }
+      //+ .timeline-point {
+      //  &:before,
+      //  &:after {
+      //    left: calc(100% + 15px);
+      //    right: auto;
+      //  }
+      //}
     }
     .timeline-item-content {
       float: right;
+      right: 0;
+      &-inner{
+        background: $brand-info;
+        color:#fff;
+      }
+      @media(min-width: $screen-sm-min){
+        .icon-circle{
+          float: right;
+          background: $brand-info;
+          color: #fff;
+        }
+
+      }
     }
 
   }
@@ -167,27 +200,27 @@
   + .timeline-point {
     margin-top: $timeline-point-margin-between;
     cursor: pointer;
-    @media(min-width: $screen-md-min) {
-
-      &:before,
-      &:after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        right: calc(100% + 15px);
-        background: #c9c9d0;
-        transform: translateY(-50%);
-      }
-      &:before {
-        width: 75px;
-        height: 0.12em;
-      }
-      &:after {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-      }
-    }
+    //@media(min-width: $screen-md-min) {
+    //
+    //  &:before,
+    //  &:after {
+    //    content: "";
+    //    position: absolute;
+    //    top: 50%;
+    //    right: calc(100% + 15px);
+    //    background: #c9c9d0;
+    //    transform: translateY(-50%);
+    //  }
+    //  &:before {
+    //    width: 75px;
+    //    height: 0.12em;
+    //  }
+    //  &:after {
+    //    width: 10px;
+    //    height: 10px;
+    //    border-radius: 50%;
+    //  }
+    //}
   }
 }
 

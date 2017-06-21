@@ -42,18 +42,18 @@
         <ul class="nav navbar-nav text-uppercase">
           <li><a href="#a-propos">A propos</a></li>
           <li><a href="#enjeux">Les enjeux</a></li>
-          <li><a href="#">Expertise</a></li>
-          <li><a href="#">Métiers</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Partners</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#metiers">Métiers</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
 {% block content %}{% endblock %}
-<footer class="section bg-primary clearfix">
+<footer id="contact" class="section bg-primary clearfix">
   <div class="container">
     <h2>Contact</h2>
     <div class="btn-contact col-xs-12 col-sm-6 text-center">

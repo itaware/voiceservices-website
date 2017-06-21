@@ -1,6 +1,12 @@
 blockquote{
+  position: relative;
   border: 0;
   color: $brand-gray;
+  padding-left: 40px;
+  .twa{
+    position: absolute;
+    left: 0;
+  }
   .author{
     margin-top: 8px;
     font-size: 0.7em;

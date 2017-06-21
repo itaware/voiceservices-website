@@ -17,7 +17,16 @@
       element = element,
       $children = $element.find('.timeline-item');
     timeline_max = $element.height();
+
+
     var last_scroll, last_timeline_height = 0;
+    var last_item_size = function(){
+      var last_item = $(element).find('.timeline-item').last();
+      var space_bottom = last_item.find('.timeline-item-content').height() / 2 + $(element).find('.timeline-item').height();
+      $(element).css('padding-bottom', space_bottom - parseInt($(element).find('.timeline-item').css('padding-top')));
+      $(element).find('.timeline').css('bottom', space_bottom);
+    };
+
 
     plugin.init = function () {
       $(window).on('scroll', function () {
@@ -27,6 +36,7 @@
       $(window).resize(function () {
         timeline_max = $element.height();
         timelineProgress();
+        last_item_size();
       });
 
       $element.find('.timeline-modal-button').on('click', function(e){
@@ -39,6 +49,8 @@
         close_modal();
       });
 
+
+      last_item_size();
     };
 
 
@@ -100,6 +112,7 @@
     var close_modal = function () {
       $element.find('.timeline-modal').removeClass('timeline-modal-open');
     };
+
 
   };
 

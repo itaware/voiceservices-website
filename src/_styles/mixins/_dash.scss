@@ -1,7 +1,7 @@
 @mixin dash(){
   display: block;
   width: 42px;
-  height: 0.12em;
+  height: 0.08em;
   @include bg-gradient();
 }
 
@@ -11,8 +11,10 @@
 
 }
 
-div[class*="bg-"]{
-  &.dash{
+div[class*="bg-"] {
+  &.dash {
     background-image: none;
   }
 }
+
+

@@ -101,3 +101,8 @@
 .btn-space{
   margin: 15px;
 }
+
+.twa + .btn{
+  margin-left: 15px;
+  vertical-align: super;
+}

@@ -35,9 +35,13 @@
         }
       }
     }
+    @media(min-width: $screen-xl-min){
+      margin-left: 5%;
+    }
   }
   .navbar-brand{
     height: auto;
     margin-top: 12px;
   }
+
 }

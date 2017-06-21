@@ -15,11 +15,15 @@
         des interfaces conversationnelles pour les professionnels.
       </p>
     </div>
+    <a href="#enjeux" class="btn btn-circle btn-scrolldown">
+      <span class="fa fa-angle-down"></span>
+    </a>
   </header>
   <section id="enjeux" class="container">
     <div class="col-xs-12 col-sm-7">
       <h2>L'enjeu est crucial</h2>
       <blockquote>
+        <span class="twa twa-speech-balloon"></span>
         <div class="text">
           “ C'est un changement radical de la façon de consommer Internet. ”
         </div>
@@ -48,7 +52,7 @@
   </section>
   <section class="container">
     <div class="col-xs-12 col-sm-6">
-      <img src="{{baseUrl}}images/composition-produit.jpg" alt="Composition produit" class="img-responsive" />
+      <img src="{{baseUrl}}images/composition-produit.jpg" alt="Composition produit" class="img-responsive"/>
     </div>
     <div class="col-xs-12 col-sm-6">
       <div class="dash"></div>
@@ -63,7 +67,7 @@
         class="text-semibold">diffuser et vendre vos produits et services.</span></p>
     </div>
   </section>
-  <section id="expertise" class="bg-image bg-gradient text-white">
+  <section id="expertise" class="bg-image bg-info text-white">
     <div class="container">
       <h2>Expertise</h2>
       <div class="row">
@@ -86,22 +90,57 @@
             class="text-semibold">pour une expérience utilisateur toujours plus pertinente.</span>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+        <div class="col-xs-12 col-sm-5 col-lg-4 col-sm-offset-1 list-logo">
           <div class="text-uppercase text-semibold">Notre plateforme est compatible avec :</div>
-          <div class="btn btn-white btn-circle btn-space btn-lg">
-            <img src="{{baseUrl}}images/social/googleassistant.png" alt="Google assistant" title="" class="img-responsive"/>
-          </div>
-          <div class="btn btn-white btn-circle btn-space btn-lg">
-            <img src="{{baseUrl}}images/social/alexa.png" alt="Alexa" title="Alexa" class="img-responsive"/></div>
-          <div class="btn btn-white btn-circle btn-space btn-lg">
-            <img src="{{baseUrl}}images/social/siri.png" alt="Siri" title="Siri" class="img-responsive"/></div>
-          <div class="btn btn-white btn-circle btn-space btn-lg">
-            <img src="{{baseUrl}}images/social/cortana.png" alt="Cortana" title="Cortana" class="img-responsive"/></div>
-          <div class="btn btn-white btn-circle btn-space btn-lg">
-            <img src="{{baseUrl}}images/social/messenger.png" alt="Messenger" title="Messenger" class="img-responsive"/>
-          </div>
-          <div class="btn btn-white btn-circle btn-space btn-lg">
-            <img src="{{baseUrl}}images/social/whatsapp.png" alt="whatsapp" title="whatsapp" class="img-responsive"/>
+          <div class="row">
+            <div class="list-logo-item col-xs-6 col-md-4 text-center">
+              <div class="btn btn-white btn-circle btn-lg">
+                <img src="{{baseUrl}}images/social/googleassistant.png" alt="Google assistant" title="" class="img-responsive"/>
+              </div>
+              <div class="list-logo-item-name text-semibold text-white">
+                Google home
+              </div>
+            </div>
+            <div class="list-logo-item col-xs-6 col-md-4 text-center">
+              <div class="btn btn-white btn-circle btn-lg">
+                <img src="{{baseUrl}}images/social/alexa.png" alt="Alexa" title="Alexa" class="img-responsive"/>
+              </div>
+              <div class="list-logo-item-name text-semibold text-white">
+                Amazon Alexa
+              </div>
+            </div>
+            <div class="list-logo-item col-xs-6 col-md-4 text-center">
+              <div class="btn btn-white btn-circle btn-lg">
+                <img src="{{baseUrl}}images/social/siri.png" alt="Siri" title="Siri" class="img-responsive"/>
+              </div>
+              <div class="list-logo-item-name text-semibold text-white">
+                Apple Siri
+              </div>
+            </div>
+            <div class="list-logo-item col-xs-6 col-md-4 text-center">
+              <div class="btn btn-white btn-circle btn-lg">
+                <img src="{{baseUrl}}images/social/cortana.png" alt="Cortana" title="Cortana" class="img-responsive"/>
+              </div>
+              <div class="list-logo-item-name text-semibold text-white">
+                Microsoft Cortana
+              </div>
+            </div>
+            <div class="list-logo-item col-xs-6 col-md-4 text-center">
+              <div class="btn btn-white btn-circle btn-lg">
+                <img src="{{baseUrl}}images/social/messenger.png" alt="Messenger" title="Messenger" class="img-responsive"/>
+              </div>
+              <div class="list-logo-item-name text-semibold text-white">
+                Facebook Messenger
+              </div>
+            </div>
+            <div class="list-logo-item col-xs-6 col-md-4 text-center">
+              <div class="btn btn-white btn-circle btn-lg">
+                <img src="{{baseUrl}}images/social/whatsapp.png" alt="whatsapp" title="whatsapp" class="img-responsive"/>
+              </div>
+              <div class="list-logo-item-name text-semibold text-white">
+                WhatsApp
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -127,7 +166,8 @@
           <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm btn-circle btn-icon-gradient btn-space-left">
-                <span class="glyphicon glyphicon-remove"></span></div>
+                <span class="glyphicon glyphicon-remove"></span>
+              </div>
               <div class="text-info text-sm">
                 Une interface conversationnelle est un nouvel usage qui implique une approche très nouvelle dans la
                 relation avec vos clients.
@@ -144,6 +184,7 @@
                 </li>
               </ul>
             </div>
+            <div class="icon-circle"><span>✔</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -155,14 +196,14 @@
               <span class="fa fa-plus"></span>
             </span>
           </div>
-          <div class="timeline-item-content hidden-xs hidden-sm timeline-modal">
+          <div class="timeline-item-content  hidden-xs hidden-sm timeline-modal">
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-info text-sm">
+              <div class="ext-sm">
                 Test & Learn
               </div>
-              <div class="dash bg-info"></div>
+              <div class="dash bg-faded"></div>
               <ul class="list-styled">
                 <li>Nous développons rapidement les premiers
                   prototypes <span class="text-semibold">pour valider les hypothèses d’interactions
@@ -174,6 +215,7 @@
                 </li>
               </ul>
             </div>
+            <div class="icon-circle"><span>✔</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -205,6 +247,7 @@
                 </li>
               </ul>
             </div>
+            <div class="icon-circle"><span>✔</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -220,11 +263,11 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-info text-sm">
+              <div class="text-sm">
                 Pour obtenir la meilleure expérience utilisateur possible il est indispensable de valider les scénarios
                 en réel avec des cohortes d’utilisateurs
               </div>
-              <div class="dash bg-info"></div>
+              <div class="dash bg-faded"></div>
               <ul class="list-styled">
                 <li>Nous réalisons une série d’expérimentations par
                   itérations pour permettre <span class="text-semibold">d’affiner chaque scénario
@@ -232,6 +275,7 @@
                 </li>
               </ul>
             </div>
+            <div class="icon-circle"><span>✔</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -262,6 +306,7 @@
                 </li>
               </ul>
             </div>
+            <div class="icon-circle"><span>✔</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -277,11 +322,11 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-info text-sm">
+              <div class="text-sm">
                 Une fois validée et testée votre interface conversationnelle se doit d’être robuste, efficace et surtout
                 visible
               </div>
-              <div class="dash bg-info"></div>
+              <div class="dash bg-faded"></div>
               <ul class="list-styled">
                 <li>Nous déployons votre interface conversationnelle
                   <span class="text-semibold">sur toutes les plateformes notamment Google
@@ -297,6 +342,7 @@
                 </li>
               </ul>
             </div>
+            <div class="icon-circle"><span>✔</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -327,6 +373,7 @@
                 </li>
               </ul>
             </div>
+            <div class="icon-circle"><span>✔</span></div>
           </div>
         </div>
       </div>
@@ -452,7 +499,7 @@
       </div>
     </div>
   </section>
-  <section class="">
+  <section id="services" class="">
     <div class="container">
       <h2>Services</h2>
     </div>
@@ -532,28 +579,32 @@
       </div>
     </div>
   </section>
-  <section class="clearfix">
+  <section id="partners" class="clearfix">
     <div class="container">
       <h2>Voice service partner program</h2>
+      <img src="{{baseUrl}}images/voicepartners-logo.jpg" alt="Voice Partners"/>
+      <div class="dash bg-gray"></div>
     </div>
     <div class="col-xs-12  pull-right col-sm-6">
       <p>
-        <img src="{{baseUrl}}images/partners-2.jpg" alt="" class="img-responsive" />
+        <img src="{{baseUrl}}images/partners-2.jpg" alt="" class="img-responsive"/>
       </p>
     </div>
     <div class="col-xs-12 pull-right half-container">
       <p class="text-info h3 text-lighter">Agence communication, Agence marketing global ? devenez partenaire et proposez dans votre offre de services la création d’interfaces conversationnelles (chatbot) : message et voix.</p>
-      <p>Notre programme de partenariat vous permettra d’avoir <span class="text-semibold">une réponse d’expert</span> face à l’émergence des nouveaux usages et <span class="text-semibold">d’être force de proposition face à vos clients.</span></p>
+      <p>Notre programme de partenariat vous permettra d’avoir
+        <span class="text-semibold">une réponse d’expert</span> face à l’émergence des nouveaux usages et
+        <span class="text-semibold">d’être force de proposition face à vos clients.</span></p>
       <p class="text-uppercase text-bold">Nous mettons à votre disposition un process collaboratif dédié tel que :</p>
       <ol class="list-styled">
         <li>formation de vos équipes sur les enjeux et possibilité des interfaces conversationnelles</li>
         <li>connexion à notre réseau international d’experts sur l’intelligence artificielle, le machine learning, l’interprétation du langage naturel (NLP) et les interfaces conversationnelles en général</li>
-        <li>analyse conjointe des besoins clients </li>
+        <li>analyse conjointe des besoins clients</li>
         <li>aide à l’élaboration et la formulation d’offre</li>
         <li>fourniture de support de documentation marketing sur nos services</li>
         <li>détachement d’un expert métier dédié en avant-vente et en après-vente</li>
       </ol>
-      <a href="#" class="btn btn-gradient btn-rounded">devenez partenaire</a>
+      <span class="twa twa-2x twa-v"></span><a href="#" class="btn btn-gradient btn-rounded">devenez partenaire</a>
     </div>
   </section>
 </div>

@@ -2,10 +2,11 @@
 $timeline-bg: $brand-info;
 $timeline-width: 296px;
 $timeline-line-width: 2px;
-$timeline-margin: 50px;
+$timeline-margin-top: 0;
+$timeline-margin-bottom: 50px;
 
 // item
-$timeline-item-padding-vertical: 1px;
+$timeline-item-padding-vertical: 50px;
 $timeline-item-padding-horizontal: 0;
 $timeline-item-transition: 0.8s;
 
@@ -20,7 +21,7 @@ $timeline-point-transform: scale(0);
 $timeline-point-active-transform: scale(1);
 $timeline-point-transition-time: 0.3s;
 $timeline-point-transition-delay: 0.3s;
-$timeline-point-margin-between : 120px;
+$timeline-point-margin-between : 80px;
 
 //content
 $timeline-content-bg : #fff;
