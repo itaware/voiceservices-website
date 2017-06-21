@@ -543,9 +543,9 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
           <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
-          <p class="text-info">AI & Machine learning consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
-            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
+          <p class="text-info">L'intelligence artificielle et le machine learning au coeur de l'expérience utilisateur</p>
+          <p>Les technologies actuelle d'interprétation du langage naturel (NLP) permettent désormais d'élaborer des conversations complexes. Combinées à de l'intelligence artificielle et du machine learning pour continuellement améliorée l'interprétation et optimiser les conversations.
+            Notre plateforme ajoute la possibilité de travailler sur les données issues des conversations pour permettre 
           </p>
         </div>
       </div>
@@ -568,7 +568,7 @@ Par exemple une interface conversationnelle dédiée aux recettes de cuisine peu
   </section>
   <section id="partners" class="clearfix">
     <div class="container">
-      <h2>Voice service partner program</h2>
+      <h2>Partner program</h2>
       <img src="{{baseUrl}}images/voicepartners-logo.jpg" alt="Voice Partners"/>
       <div class="dash bg-gray"></div>
     </div>
@@ -578,20 +578,18 @@ Par exemple une interface conversationnelle dédiée aux recettes de cuisine peu
       </p>
     </div>
     <div class="col-xs-12 pull-right half-container">
-      <p class="text-info h3 text-lighter">Agence communication, Agence marketing global ? devenez partenaire et proposez dans votre offre de services la création d’interfaces conversationnelles (chatbot) : message et voix.</p>
-      <p>Notre programme de partenariat vous permettra d’avoir
-        <span class="text-semibold">une réponse d’expert</span> face à l’émergence des nouveaux usages et
-        <span class="text-semibold">d’être force de proposition face à vos clients.</span></p>
-      <p class="text-uppercase text-bold">Nous mettons à votre disposition un process collaboratif dédié tel que :</p>
+      <p class="text-info h3 text-lighter">Agence communication ? <br> Agence marketing global ? <br>Devenez partenaire et proposez dans votre offre de services la création d’interfaces conversationnelles (chatbot) : message et voix.</p>
+      <p>Notre programme de partenariat vous permettra d’avoir <span class="text-semibold">une réponse d’expert</span> face à l’émergence des nouveaux usages et <span class="text-semibold">d’être force de proposition face à vos clients.</span></p>
+      <p class="text-uppercase text-bold">Nous mettons à votre disposition un process collaboratif dédié :</p>
       <ol class="list-styled">
         <li>formation de vos équipes sur les enjeux et possibilité des interfaces conversationnelles</li>
         <li>connexion à notre réseau international d’experts sur l’intelligence artificielle, le machine learning, l’interprétation du langage naturel (NLP) et les interfaces conversationnelles en général</li>
-        <li>analyse conjointe des besoins clients</li>
-        <li>aide à l’élaboration et la formulation d’offre</li>
+        <li>analyse conjointe des besoins clients </li>
+        <li>aide à l’élaboration et la formulation d’offres</li>
         <li>fourniture de support de documentation marketing sur nos services</li>
         <li>détachement d’un expert métier dédié en avant-vente et en après-vente</li>
       </ol>
-      <span class="twa twa-2x twa-v"></span><a href="#" class="btn btn-gradient btn-rounded">devenez partenaire</a>
+      <span class="twa twa-2x twa-v"></span><a href="mailto:hello@voiceservices.io?subject=partner program" target="_blank" class="btn btn-gradient btn-rounded">devenez partenaire</a>
     </div>
   </section>
 </div>
