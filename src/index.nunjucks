@@ -100,7 +100,7 @@
                 <img src="{{baseUrl}}images/social/googleassistant.png" alt="Google assistant" title="" class="img-responsive"/>
               </div>
               <div class="list-logo-item-name text-semibold text-white">
-                Google home
+                Google Home
               </div>
             </div>
             <div class="list-logo-item col-xs-6 col-md-4 text-center">
@@ -204,7 +204,7 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-info text-sm">
+              <div class="text-sm">
                 Tester & Apprendre
               </div>
               <div class="dash bg-faded"></div>
@@ -327,7 +327,7 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-info text-sm">
+              <div class="text-sm">
                 Une fois validée et testée votre interface conversationnelle se doit d’être fiable, efficace et surtout
                 visible
               </div>
@@ -511,7 +511,7 @@
       </div>
       <div class="tab-accordion-content" id="platerform-datas">
         <div class="tab-img hidden-xs col-sm-7">
-          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+          <img src="{{baseUrl}}images/services/platform-data.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
           <p class="text-info">VoiceServices vous donne accès à une plate-forme d’administration de vos interfaces conversationnelles</p>
@@ -526,7 +526,7 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
       </div>
       <div class="tab-accordion-content" id="technologie-devices">
         <div class="tab-img hidden-xs col-sm-7">
-          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+          <img src="{{baseUrl}}images/services/techno-device.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
           <p class="text-info">Technologies & Devices consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
@@ -540,7 +540,7 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
       </div>
       <div class="tab-accordion-content" id="ai-machine-learning">
         <div class="tab-img hidden-xs col-sm-7">
-          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+          <img src="{{baseUrl}}images/services/ai-machine-learning.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
           <p class="text-info">L'intelligence artificielle et le machine learning au coeur de l'expérience utilisateur</p>
@@ -554,7 +554,7 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
       </div>
       <div class="tab-accordion-content" id="voice-business">
         <div class="tab-img hidden-xs col-sm-7">
-          <img src="{{baseUrl}}images/services/creation-interface.jpg" alt="" class="img-responsive"/>
+          <img src="{{baseUrl}}images/services/voice-business.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
           <p class="text-info">En plus d’une interface d’analyse et d’administration vous avez aussi la capacité d’interagir de manière transversale sur d’autres interfaces conversationnelles</p>
@@ -574,7 +574,7 @@ Par exemple une interface conversationnelle dédiée aux recettes de cuisine peu
     </div>
     <div class="col-xs-12  pull-right col-sm-6">
       <p>
-        <img src="{{baseUrl}}images/partners-2.jpg" alt="" class="img-responsive"/>
+        <img src="{{baseUrl}}images/partners.jpg" alt="" class="img-responsive"/>
       </p>
     </div>
     <div class="col-xs-12 pull-right half-container">

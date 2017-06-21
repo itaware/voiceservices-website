@@ -69,13 +69,10 @@
 {% block content %}{% endblock %}
 <div class="block-contact-fixe">
   <div>
-    <a href="#" class="btn btn btn-gradient btn-rounded"><span class="fa fa-comments-o"></span><span class="btn-text"><span>chatter</span></span></a>
+    <a href="tel:0612163393" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>nous appeler</span></span></a>
   </div>
   <div>
-    <a href="#" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>téléphone</span></span></a>
-  </div>
-  <div>
-    <a href="#" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>contact mail</span></span></a>
+    <a href="mailto:hello@voiceservices.io" target="_blank" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>nous contacter</span></span></a>
   </div>
 
 </div>
@@ -83,12 +80,12 @@
   <div class="container">
     <h2>Contact</h2>
     <div class="btn-contact col-xs-12 col-sm-6 text-center">
-      <p class="text-semibold">Vous souhaitez être rappelé ?</p>
-      <a href="#" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>être rappelé</a>
+      <p class="text-semibold">Vous souhaitez nous appeler ?</p>
+      <a href="tel:0612163393" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>appeler</a>
     </div>
     <div class="btn-contact col-xs-12 col-sm-6 text-center">
       <p class="text-semibold">Vous souhaitez nous contacter par mail ?</p>
-      <a href="#" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>contact mail</a>
+      <a href="mailto:hello@voiceservices.io" target="_blank" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>envoyer un mail</a>
     </div>
   </div>
   <hr/>
@@ -98,15 +95,28 @@
       <a href="#" class="link-footer text-uppercase text-white">Mentions légales</a>
     </div>
     <div class="pull-right">
-      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-facebook"> </span></a>
-      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-twitter"> </span></a>
-      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-linkedin"> </span></a>
-      <a href="#" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-google-plus"> </span></a>
+      <a href="#" target="_blank" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-facebook"> </span></a>
+      <a href="http://twitter.com/voice_platform" target="_blank" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-twitter"> </span></a>
+      <a href="#" target="_blank" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-linkedin"> </span></a>
+      <a href="#" target="_blank" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-google-plus"> </span></a>
     </div>
   </div>
 
 </footer>
 <script src="{{baseUrl}}scripts/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/594a965750fd5105d0c821cd/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 {% block scripts %}{% endblock %}
 </body>
 </html>
