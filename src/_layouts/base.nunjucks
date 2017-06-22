@@ -2,7 +2,7 @@
 {% block config %}
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
-{% set baseUrl = config.baseUrl or './' %}
+{% set baseUrl = config.baseUrl or '/' %}
 {% endblock %}
 
 <!DOCTYPE html>
@@ -52,10 +52,10 @@
         </button>
         <ul class="list-inline">
           <li>
-           <a href="/"><img src="{{baseUrl}}images/voice-logo.png" alt="Let's customers be heard !"/></a>
+           <a href="/"><img src="{{baseUrl}}images/voice-logo.png" alt="{'let your customer\'s voice be heard' | i18n() }} !"/></a>
           </li>
           <li style="vertical-align: middle; border-left: gray 1px solid; padding-left: 12px;">
-            <span style="font-size: 16px;">LET'S YOUR CUSTOMERS BE HEARD !</span>
+            <span style="font-size: 16px; text-transform: uppercase;">{{'let your customer\'s voice be heard' | i18n() }} !</span>
             <br>
             <span style="font-size: 10px;">VOICE & CHATBOT SERVICES COMPANY</span>
           </li>

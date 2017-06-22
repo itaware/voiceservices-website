@@ -11,11 +11,9 @@
              {{baseUrl}}images/voice-logo-final-2@3x.png 3x"
            class="Voice-logo-final-2">
       <p>
-        les experts de l'interface conversationnelle
+        {{ 'chatbot experts for your business' | i18n() }}
         <br>
-        pour les professionnels
-        <br>
-        <span style="font-size: 12px;">chatbots + voix</span>
+        <span style="font-size: 12px;">chatbots + {{ 'voice' | i18n() }}</span>
       </p>
     </div>
     <a href="#enjeux" class="btn btn-scrolldown">
@@ -59,15 +57,7 @@
     </div>
     <div class="col-xs-12 col-sm-6">
       <div class="dash"></div>
-      <p>
-        Les interfaces conversationnelles regroupent les chatbots (interactions avec un robot via la messagerie
-        instantanée) et les terminaux voix type
-        <span class="text-semibold">Google Home, Amazon Echo (Alexa), Home Pod, Facebook Messenger.</span>
-      </p>
-      <p>Grâce aux avancées technologiques en terme d’intelligence artificielle et de machine learning, ces interfaces
-        sont en mesure de reconnaître la voix et d’interpréter le langage naturel.</p>
-      <p>Ce nouvel usage, extrêmement intuitif, offre des possibilités révolutionnaires pour <span
-        class="text-semibold">diffuser et vendre vos produits et services.</span></p>
+      {{ 'intro' | i18n() }}
     </div>
   </section>
   <section id="expertise" class="bg-image bg-info text-white">
@@ -76,8 +66,12 @@
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <p>
-            Grâce à notre expertise des interfaces conversationnelles nous vous proposons de vous accompagner et concevoir vos scénarios
-            d’interactions avec vos produits et services et de les déployer sur notre plateforme.
+            Grâce à notre expertise des interfaces conversationnelles nous vous proposons :
+            <ul>
+              <li>de vous guider dans la mise en place stratégique de ce nouvel usage pour votre marché</li>
+              <li>de concevoir vos scénarios d’interactions avec vos produits et services</li>
+              <li>de les développer, les intégrer avec votre SI et les déployer sur notre plateforme</li>
+            </ul>
           </p>
           <p>
             Nous assurons la maintenance de vos interfaces tout en vous donnant accès au pilotage et à la supervision de
