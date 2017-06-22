@@ -3,13 +3,22 @@
   padding: 1px;
   background: no-repeat center center / cover;
   color: #fff;
-  font-size: 23px;
+  font-size: 20px;
   &--content{
     margin: 10% auto;
+  }
+  .slide-text{
+    margin: 40px auto 0;
+    max-width: 620px;
   }
 }
 .home{
   .content-header-slide{
     background-image: url(../images/slide/slide.jpg);
+  }
+}
+.metiers{
+  .content-header-slide{
+    background-image: url(../images/slide/slide-sante.jpg);
   }
 }

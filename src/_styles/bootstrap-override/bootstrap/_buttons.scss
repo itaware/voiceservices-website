@@ -1,6 +1,9 @@
 .btn{
   padding: 10px 25px;
   line-height: 30px;
+  &+&{
+    margin-left: 15px;
+  }
 }
 .btn-white{
   @include button-variant($brand-primary, #fff , #fff);

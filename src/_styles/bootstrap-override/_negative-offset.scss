@@ -35,4 +35,12 @@
     }
   }
 }
+div[class*="negative-offset"]{
+  position: relative;
+  z-index: -1;
+}
 
+@include make-xs-negative-offset();
+@include make-sm-negative-offset();
+@include make-md-negative-offset();
+@include make-lg-negative-offset();

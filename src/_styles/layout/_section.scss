@@ -2,7 +2,7 @@ section,
 .section{
   padding-top: $section-padding-vertical;
   padding-bottom: $section-padding-vertical;
-
+  @include clearfix();
   &.bg-gradient{
     @include bg-gradient(#4b46cf, #2da5af);
 
