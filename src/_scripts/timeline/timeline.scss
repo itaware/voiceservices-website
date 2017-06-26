@@ -87,10 +87,22 @@
     transition-delay: $timeline-point-transition-delay;
 
     &-inner {
+      position: relative;
       padding: 25px 35px;
       background: $timeline-content-bg;
       border-radius: 2em;
-      //box-shadow: $timeline-content-shadow;
+      &:after{
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 9px 0 9px 12px;
+        border-color: transparent transparent transparent #ffffff;
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%);
+      }
     }
     @media(min-width: $screen-sm-min){
       .icon-circle{
@@ -130,13 +142,6 @@
     &.timeline-point, .timeline-point {
       float: left;
       transform: translateX(-50%);
-      //+ .timeline-point {
-      //  &:before,
-      //  &:after {
-      //    left: calc(100% + 15px);
-      //    right: auto;
-      //  }
-      //}
     }
     .timeline-item-content {
       float: right;
@@ -144,6 +149,13 @@
       &-inner{
         background: $brand-info;
         color:#fff;
+        &:after{
+          left: auto;
+          right: 100%;
+          border-width: 9px 12px 9px 0;
+          border-color: transparent $brand-info transparent transparent;
+
+        }
       }
       @media(min-width: $screen-sm-min){
         .icon-circle{
