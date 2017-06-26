@@ -48,7 +48,7 @@
       <p class="text-medium ">Un envol des utilisateurs... En millions, dans le monde.</p>
       <small class="text-gray">Source Les Echos / Juniper Research</small>
 
-      <img src="{{baseUrl}}images/graphique.jpg" alt="Graphique" class="img-responsive"/>
+      <img src="{{baseUrl}}images/graphique.svg" alt="Graphique" class="img-responsive"/>
     </div>
   </section>
   <section class="container">
