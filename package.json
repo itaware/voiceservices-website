@@ -83,7 +83,9 @@
     "entries": {
       "js": "main**.js",
       "css": "main**.{sass,scss}"
-    }
+    },
+    "telHref": "tel:0612163393",
+    "mailtoHref": "mailto:hello@voiceservices.io"
   },
   "browserify": {
     "transform": [

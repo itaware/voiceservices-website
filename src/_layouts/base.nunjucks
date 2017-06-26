@@ -52,10 +52,10 @@
         </button>
         <ul class="list-inline">
           <li>
-           <a href="/"><img src="{{baseUrl}}images/voice-logo.png" alt="{'let your customer\'s voice be heard' | i18n() }} !"/></a>
+           <a href="/"><img src="{{baseUrl}}images/voice-logo.png" alt="let your customer's voice be heard !"/></a>
           </li>
           <li style="vertical-align: middle; border-left: gray 1px solid; padding-left: 12px;">
-            <span style="font-size: 16px; text-transform: uppercase;">{{'let your customer\'s voice be heard' | i18n() }} !</span>
+            <span style="font-size: 16px; text-transform: uppercase;">let your customer's voice be heard !</span>
             <br>
             <span style="font-size: 10px;">VOICE & CHATBOT SERVICES COMPANY</span>
           </li>
@@ -63,13 +63,13 @@
       </div>
       <div class="collapse navbar-collapse" id="main-nav">
         <ul class="nav navbar-nav text-uppercase">
-          <li><a href="#a-propos">A propos</a></li>
-          <li><a href="#enjeux">Les enjeux</a></li>
-          <li><a href="#expertise">Expertise</a></li>
-          <li><a href="#metiers">Métiers</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#partners">Partners</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#a-propos">{{ 'about' | i18n() }}</a></li>
+          <li><a href="#enjeux">{{ 'challenges' | i18n() }}</a></li>
+          <li><a href="#expertise">{{ 'expertise' | i18n() }}</a></li>
+          <li><a href="#metiers">{{ 'frames' | i18n() }}</a></li>
+          <li><a href="#services">{{ 'services' | i18n() }}</a></li>
+          <li><a href="#partners">{{ 'partners' | i18n() }}</a></li>
+          <li><a href="#contact">{{ 'contact' | i18n() }}</a></li>
         </ul>
       </div>
     </div>
@@ -78,10 +78,10 @@
 {% block content %}{% endblock %}
 <div class="block-contact-fixe">
   <div>
-    <a href="tel:0612163393" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>nous appeler</span></span></a>
+    <a href="{{telHref}}" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>{{ 'call us' | i18n() }}</span></span></a>
   </div>
   <div>
-    <a href="mailto:hello@voiceservices.io" target="_blank" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>nous contacter</span></span></a>
+    <a href="{{mailtoHref}}" target="_blank" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>{{ 'mail us' | i18n() }}</span></span></a>
   </div>
 
 </div>
@@ -89,19 +89,19 @@
   <div class="container">
     <h2>Contact</h2>
     <div class="btn-contact col-xs-12 col-sm-6 text-center">
-      <p class="text-semibold">Vous souhaitez nous appeler ?</p>
-      <a href="tel:0612163393" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>appeler</a>
+      <p class="text-semibold">{{ 'Want to call us ?' | i18n() }}</p>
+      <a href="{{telHref}}" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>{{ 'call' | i18n() }}</a>
     </div>
     <div class="btn-contact col-xs-12 col-sm-6 text-center">
-      <p class="text-semibold">Vous souhaitez nous contacter par mail ?</p>
-      <a href="mailto:hello@voiceservices.io" target="_blank" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>envoyer un mail</a>
+      <p class="text-semibold">{{ 'Want to sendu us an email ?' | i18n() }}</p>
+      <a href="{{mailtoHref}}" target="_blank" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>{{ 'mail' | i18n() }}</a>
     </div>
   </div>
   <hr/>
   <div class="footer-legal container small">
     <div class="pull-left">
-      Voice © • Marque(s) & Concept Liberty Finances, Sarl au capital de 1.000.000 d’euros
-      <a href="#" class="link-footer text-uppercase text-white">Mentions légales</a>
+      Voice © • Marque(s) & Concept Liberty Finances, SàRL au capital de 1.000.000 €
+      <a href="#" class="link-footer text-uppercase text-white">{{ 'Terms of use' | i18n() }}</a>
     </div>
     <div class="pull-right">
       <a href="#" target="_blank" class="btn btn-outline-white btn-circle btn-sm"><span class="fa fa-facebook"> </span></a>

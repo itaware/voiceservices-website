@@ -410,10 +410,8 @@
         <div class="block-flex block-icon  col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
             <img src="{{baseUrl}}images/metiers/sante.svg" alt="Santé"/>
-            <div class="block-icon-title text-semibold text-uppercase">Santé</div>
-            <div class="block-icon-desc">Offrez une assistance aux professionnels de santé pour rédiger leur compte
-              rendu
-              et compléter le dossier médical de leurs patients.
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Health & Wellness' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'health-job-home-description' | i18n() }}
             </div>
             <div class="block-icon-btn">
               <a href="#" class="btn btn-circle btn-icon-gradient bg-primary">

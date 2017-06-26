@@ -1,0 +1,12 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set jobIcon = 'sante.svg' %}
+{% set jobBgImg = 'slide-sante.jpg' %}
+{% set headerDescription = 'health-job-header-description' %}
+{% set title = 'Health & Wellness' %}
+{% set subtitle = 'Health' %}
+{% set details = 'Health' %}
+{% set jobImg = 'sante-2.jpg' %}
+{% set headerTitle = 'Health' %}
+{% set jobTestimonialImg = 'temoignage.png' %}
+{% set testimonialQuote = 'Health' %}
+{% set testimonialDetail = 'Health' %}
