@@ -4,12 +4,12 @@
 
 {% block content %}
 <div class="main-container">
-  <header id="a-propos" class="content-header-slide" style="background-image: url(../images/slide/{{jobBgImg}});">
+  <header id="a-propos" class="content-header-slide" style="background-image: url(../images/metiers/{{bgImg}});">
     <div class="content-header-slide--content text-center">
-      <img src="{{baseUrl}}images/metiers/{{jobIcon}}" alt="Santé"/>
-      <div class="block-icon-title text-semibold text-uppercase">{{ headerTitle | i18n() }}</div>
+      <img src="{{baseUrl}}images/metiers/{{icon}}" alt="{{ frame | i18n() }}"/>
+      <div class="block-icon-title text-semibold text-uppercase">{{ frame | i18n() }}</div>
       <div class="slide-text">
-        {{ headerDescription | i18n() }}
+        {{ headline | i18n() }}
       </div>
     </div>
     <a href="#section1" class="btn btn-scrolldown">
@@ -43,7 +43,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-sm-negative-offset-1">
-        <img src="{{baseUrl}}images/{{jobImg}}" alt="" class="img-responsive" />
+        <img src="{{baseUrl}}images/metiers/{{img}}" alt="" class="img-responsive" />
       </div>
     </div>
   </section>
@@ -51,7 +51,7 @@
     <div class="container">
       <h2>{{ 'Testimonial' | i18n() }}</h2>
       <div class="block col-xs-12 col-sm-4">
-        <img src="{{baseUrl}}images/{{jobTestimonialImg}}" alt="{{ 'Testimonial' | i18n() }}" class="img-responsive" />
+        <img src="{{baseUrl}}images/metiers/{{testimonialImg}}" alt="{{ 'Testimonial' | i18n() }}" class="img-responsive" />
       </div>
       <div class="col-xs-12 col-sm-6">
         <blockquote>

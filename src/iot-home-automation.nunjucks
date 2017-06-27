@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'iot-icon.svg' %}
+{% set bgImg = 'iot-slide.jpg' %}
+{% set frame = 'IoT & Home automation' %}
+{% set headline = 'iot-headline' %}
+{% set title = 'iot-title' %}
+{% set subtitle = 'iot-subtitle' %}
+{% set details = 'iot-details' %}
+{% set quote = 'iot-quote' %}
+{% set img = 'iot.jpg' %}
+{% set testimonialImg = 'iot-testimonial.png' %}
+{% set testimonialQuote = 'iot-testimonial-quote' %}
+{% set testimonialDetail = 'iot-testimonial-detail' %}

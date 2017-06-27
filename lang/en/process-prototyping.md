@@ -1,0 +1,2 @@
+ - **Fast development** of your first **prototypes** to validate interactions’ hypothesis with customers
+ - **Defining** more **precisely** the expected **level of service**.

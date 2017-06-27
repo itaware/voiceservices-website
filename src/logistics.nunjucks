@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'logistics-icon.svg' %}
+{% set bgImg = 'logistics-slide.jpg' %}
+{% set frame = 'Logistics' %}
+{% set headline = 'logistics-headline' %}
+{% set title = 'logistics-title' %}
+{% set subtitle = 'logistics-subtitle' %}
+{% set details = 'logistics-details' %}
+{% set quote = 'logistics-quote' %}
+{% set img = 'logistics.jpg' %}
+{% set testimonialImg = 'logistics-testimonial.png' %}
+{% set testimonialQuote = 'logistics-testimonial-quote' %}
+{% set testimonialDetail = 'logistics-testimonial-detail' %}

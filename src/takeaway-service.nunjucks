@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'takeaway-icon.svg' %}
+{% set bgImg = 'takeaway-slide.jpg' %}
+{% set frame = 'Takeaway service' %}
+{% set headline = 'takeaway-headline' %}
+{% set title = 'takeaway-title' %}
+{% set subtitle = 'takeaway-subtitle' %}
+{% set details = 'takeaway-details' %}
+{% set quote = 'takeaway-quote' %}
+{% set img = 'takeaway.jpg' %}
+{% set testimonialImg = 'takeaway-testimonial.png' %}
+{% set testimonialQuote = 'takeaway-testimonial-quote' %}
+{% set testimonialDetail = 'takeaway-testimonial-detail' %}

@@ -15,7 +15,7 @@ module.exports = function (gulp, plugins, args, config, taskTarget, browserSync)
   var dataPath = path.join(dirs.source, dirs.data);
 
   // Nunjucks template compile
-  gulp.task('nunjucks', function () {
+  gulp.task('nunjucks', ['lang'], function () {
     var siteData = {};
     if (fs.existsSync(dataPath)) {
       // Convert directory to JS Object

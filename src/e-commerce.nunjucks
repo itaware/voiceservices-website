@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'ecommerce-icon.svg' %}
+{% set bgImg = 'ecommerce-slide.jpg' %}
+{% set frame = 'E-commerce' %}
+{% set headline = 'ecommerce-headline' %}
+{% set title = 'ecommerce-title' %}
+{% set subtitle = 'ecommerce-subtitle' %}
+{% set details = 'ecommerce-details' %}
+{% set quote = 'ecommerce-quote' %}
+{% set img = 'ecommerce.jpg' %}
+{% set testimonialImg = 'ecommerce-testimonial.png' %}
+{% set testimonialQuote = 'ecommerce-testimonial-quote' %}
+{% set testimonialDetail = 'ecommerce-testimonial-detail' %}

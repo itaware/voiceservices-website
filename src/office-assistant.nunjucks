@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'office-icon.svg' %}
+{% set bgImg = 'office-slide.jpg' %}
+{% set frame = 'Office & Assistant' %}
+{% set headline = 'office-headline' %}
+{% set title = 'office-title' %}
+{% set subtitle = 'office-subtitle' %}
+{% set details = 'office-details' %}
+{% set quote = 'office-quote' %}
+{% set img = 'office.jpg' %}
+{% set testimonialImg = 'office-testimonial.png' %}
+{% set testimonialQuote = 'office-testimonial-quote' %}
+{% set testimonialDetail = 'office-testimonial-detail' %}

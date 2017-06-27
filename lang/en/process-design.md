@@ -1,0 +1,4 @@
+ - **Definition** of the most **relevant** hypothesis of **scenarios** with our designers team
+ - Design of the **conversational architecture**
+ - Design of the **semantic wording**
+ - Setting up **technical and operational specifications** for the **integration** of scenarios in your **information system**

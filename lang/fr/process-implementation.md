@@ -1,0 +1,2 @@
+ - Passage d’un prototype à un **service professionnel dédié** et **entièrement intégré à votre système d’information** (CRM, ERP, données métiers, ...)
+ - Réalisation de tests pour **s’assurer de la fiabilité et gérer les évolutions futures** en enrichissant l’existant

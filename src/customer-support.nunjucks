@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'support-icon.svg' %}
+{% set bgImg = 'support-slide.jpg' %}
+{% set frame = 'Customer support' %}
+{% set headline = 'support-headline' %}
+{% set title = 'support-title' %}
+{% set subtitle = 'support-subtitle' %}
+{% set details = 'support-details' %}
+{% set quote = 'support-quote' %}
+{% set img = 'support.jpg' %}
+{% set testimonialImg = 'support-testimonial.png' %}
+{% set testimonialQuote = 'support-testimonial-quote' %}
+{% set testimonialDetail = 'support-testimonial-detail' %}

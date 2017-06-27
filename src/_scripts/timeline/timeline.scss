@@ -103,6 +103,9 @@
         left: 100%;
         transform: translateY(-50%);
       }
+      ul {
+        @extend .list-styled, ul.list-styled;
+      }
     }
     @media(min-width: $screen-sm-min){
       .icon-circle{

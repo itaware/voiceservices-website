@@ -1,0 +1,3 @@
+ - **Analysis** of your **information system** and your **sales process**
+ - Setting up **APIs** (Application Programming Interfaces) to **communicate** between conversational interface and your information system.
+ - **Monitoring** and **maintenance** of integration

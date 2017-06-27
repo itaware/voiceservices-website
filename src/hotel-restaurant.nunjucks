@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'hotel-icon.svg' %}
+{% set bgImg = 'hotel-slide.jpg' %}
+{% set frame = 'Hotel & Restaurant' %}
+{% set headline = 'hotel-headline' %}
+{% set title = 'hotel-title' %}
+{% set subtitle = 'hotel-subtitle' %}
+{% set details = 'hotel-details' %}
+{% set quote = 'hotel-quote' %}
+{% set img = 'hotel.jpg' %}
+{% set testimonialImg = 'hotel-testimonial.png' %}
+{% set testimonialQuote = 'hotel-testimonial-quote' %}
+{% set testimonialDetail = 'hotel-testimonial-detail' %}

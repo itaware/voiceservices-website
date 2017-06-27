@@ -1,0 +1,2 @@
+ - Administation et **analyse des données** échanges via notre plateforme en s’appuyant sur les **meilleurs outils du marché** pour obtenir une qualité de service **répondant aux attentes de vos clients**
+ - Suivi mensuel d'un **expert dédié** vous permettant de faire évoluer et d'**améliorer** votre interface conversationnelle au gré de l’évolution des usages et à l’apprentissage au travers de l’**intelligence artificielle** et du **machine learning** alimentés par les données de vos clients.

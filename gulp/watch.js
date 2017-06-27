@@ -16,6 +16,7 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
 
       // Nunjucks Templates
       gulp.watch([
+        'lang/*.json', 'lang/**/*.md',
         path.join(dirs.source, '**/*.nunjucks'),
         path.join(dirs.source, dirs.data, '**/*.{json,yaml,yml}')
       ], ['nunjucks']);
@@ -36,7 +37,7 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
       // All other files
       gulp.watch([
         path.join(dirs.temporary, '**/*'),
-        '!' + path.join(dirs.temporary, '**/*.{css,map,html,js}')
+        '!' + path.join(dirs.temporary, '**/*.{css,scss,map,html,js}')
       ]).on('change', browserSync.reload);
     }
   });

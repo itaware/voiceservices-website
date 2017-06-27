@@ -1,0 +1,2 @@
+ - **Développement rapide** des premiers **prototypes** pour valider les hypothèses d’interactions avec vos clients
+ - **Définition** de façon plus **précise** du niveau de **service attendu**

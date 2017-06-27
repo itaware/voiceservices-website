@@ -1,0 +1,2 @@
+ - Realization of a full set of **iterative experimentations** to refine each scenario, to be as **closely** as possible to **customer expectations**
+ - **Result analysis** at the end of iteration and **improvement** of conversational interface.

@@ -1,0 +1,13 @@
+{% extends '_layouts/metiers.nunjucks' %}
+{% set icon = 'bank-icon.svg' %}
+{% set bgImg = 'bank-slide.jpg' %}
+{% set frame = 'Bank & Insurance' %}
+{% set headline = 'bank-headline' %}
+{% set title = 'bank-title' %}
+{% set subtitle = 'bank-subtitle' %}
+{% set details = 'bank-details' %}
+{% set quote = 'bank-quote' %}
+{% set img = 'bank.jpg' %}
+{% set testimonialImg = 'bank-testimonial.png' %}
+{% set testimonialQuote = 'bank-testimonial-quote' %}
+{% set testimonialDetail = 'bank-testimonial-detail' %}
