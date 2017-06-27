@@ -78,23 +78,22 @@
 {% block content %}{% endblock %}
 <div class="block-contact-fixe">
   <div>
-    <a href="{{telHref}}" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>{{ 'call us' | i18n() }}</span></span></a>
+    <a href="{{config.telHref}}" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>{{ 'call us' | i18n() }}</span></span></a>
   </div>
   <div>
-    <a href="{{mailtoHref}}" target="_blank" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>{{ 'mail us' | i18n() }}</span></span></a>
+    <a href="{{config.mailtoHref}}" target="_blank" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>{{ 'mail us' | i18n() }}</span></span></a>
   </div>
-
 </div>
 <footer id="contact" class="section bg-primary clearfix">
   <div class="container">
     <h2>Contact</h2>
     <div class="btn-contact col-xs-12 col-sm-6 text-center">
       <p class="text-semibold">{{ 'Want to call us ?' | i18n() }}</p>
-      <a href="{{telHref}}" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>{{ 'call' | i18n() }}</a>
+      <a href="{{config.telHref}}" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>{{ 'call' | i18n() }}</a>
     </div>
     <div class="btn-contact col-xs-12 col-sm-6 text-center">
       <p class="text-semibold">{{ 'Want to sendu us an email ?' | i18n() }}</p>
-      <a href="{{mailtoHref}}" target="_blank" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>{{ 'mail' | i18n() }}</a>
+      <a href="{{config.mailtoHref}}" target="_blank" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>{{ 'mail' | i18n() }}</a>
     </div>
   </div>
   <hr/>
