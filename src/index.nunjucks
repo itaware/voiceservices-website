@@ -22,30 +22,29 @@
   </header>
   <section id="enjeux" class="container">
     <div class="col-xs-12 col-sm-7">
-      <h2>L'enjeu est crucial</h2>
+      <h2>{{ 'A crucial issue' | i18n() }}</h2>
       <blockquote>
         <img src="{{baseUrl}}images/msg.png" align="left" style="width: 28px;">
         <div class="text">
-          &nbsp;&nbsp;“ #VoiceFirst est un changement radical de la façon de consommer Internet. ”
+          &nbsp;&nbsp;“ {{ 'ceoQuote' | i18n() }} ”
         </div>
         <div class="author">
           Franck • CEO Voice Services
         </div>
       </blockquote>
       <p>
-        Il s'est déjà écoulé à plus de <span class="text-bold">8 millions d'exemplaires</span> fin 2016, selon les
-        estimations de Consumer Intelligence Research Partners. Et la vague grossit à vue d'oeil.
+        {{ 'homeQuote' | i18n() }}
       </p>
       <div class="block-highlight col-sm-9 bg-primary">
-        50 % des recherches seront vocales d'ici à 2020*
+        {{ '50% of research will be vocal research from now to 2020' | i18n() }}*
         <div class="text-right">
-          <small>* prédiction ComScore</small>
+          <small>* {{ 'ComScore prediction' | i18n() }}</small>
         </div>
       </div>
     </div>
     <div class="col-xs-12 col-sm-5">
-      <div class=" text-semibold text-uppercase">ASSISTANTS VIRTUELS :</div>
-      <p class="text-medium ">Un envol des utilisateurs... En millions, dans le monde.</p>
+      <div class=" text-semibold text-uppercase">{{ 'VIRTUAL ASSISTANTS' | i18n() }} :</div>
+      <p class="text-medium ">{{ 'A rise of users... In millions, worldwide.' | i18n() }}</p>
       <small class="text-gray">Source Les Echos / Juniper Research</small>
 
       <img src="{{baseUrl}}images/graphique.svg" alt="Graphique" class="img-responsive"/>
@@ -430,7 +429,7 @@
           <img src="{{baseUrl}}images/services/platform-data.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">VoiceServices vous donne accès à une plate-forme d’administration de vos interfaces conversationnelles</p>
+          <p class="text-info">Voice Services vous donne accès à une plate-forme d’administration de vos interfaces conversationnelles</p>
           <p>Analyse des interactions clients, statistiques d’utilisations, paramétrage de vos interfaces, extraction de données...
 Notre plate-forme vous permet de <span class="text-semibold">capitaliser sur les données</span> échangées et ainsi de pouvoir vous aider à <span class="text-semibold">améliorer l’expérience utilisateur</span> au plus près des attentes de vos clients et à optimiser vos ventes de produits et services.
 Ceci est possible grâce à des algorithmes d’intelligence artificielle qui analysent les conversations archivées pour vous aider à analyser celles-ci et vous suggérer des options d’améliorations.
@@ -444,11 +443,9 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
         <div class="tab-img hidden-xs col-sm-7">
           <img src="{{baseUrl}}images/services/techno-device.jpg" alt="" class="img-responsive"/>
         </div>
-        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
-          <p class="text-info">Technologies & Devices consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus nibh, mattis vitae nibh id, tempor rutrum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed sapien sed massa finibus maximus sit
-            <span class="text-semibold">amet at est</span>. Aliquam et mauris imperdiet, aliquet orci ac, fermentum neque. Etiam accumsan nulla sit amet dictum accumsan. Phasellus tristique quam vel justo lobortis tristique. Etiam id diam eu magna maximus sodales eget eget velit.
-          </p>
+        <div class="tab-text col-xs-12 col-sm-5">
+          <p class="text-info">Les dernières technologies et les terminaux de pointe à votre service</p>
+          <p>Concernant les commandes vocales nous proposons les produits du marché : Google Home, Amazon Echo (aka Alexa), Apple Siri. Sachant que ces technologies NLP (Natural Language Processing) peuvent être utilisés aussi depuis un smartphone ou un ordinateur. Nous maitrisons tout les outils mis à disposition par les éditeurs de ces produits pour développer pour vous et avec vous des interfaces conversationnelles de pointe. Des plateformes de base comme api.ai, wit.ai, recast.ai pour gérer le NLP au SDK Google Actions et Amazon Skill Kit pour piloter les terminaux nous tirons le meilleur parti de ces technologies à votre service.  Nos interfaces conversationnelles sont de fait compatibles avec les plateformes de messageries instantanées du marché : Facebook Messenger, Siri, Slack, Twilio, Viber, Skype, Telegram, Line, Microsoft Cortana, KiK</p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -458,7 +455,7 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
         <div class="tab-img hidden-xs col-sm-7">
           <img src="{{baseUrl}}images/services/ai-machine-learning.jpg" alt="" class="img-responsive"/>
         </div>
-        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+        <div class="tab-text col-xs-12 col-sm-5">
           <p class="text-info">L'intelligence artificielle et le machine learning au coeur de l'expérience utilisateur</p>
           <p>Les technologies actuelle d'interprétation du langage naturel (NLP) permettent désormais d'élaborer des conversations complexes. Combinées à de l'intelligence artificielle et du machine learning pour continuellement améliorée l'interprétation et optimiser les conversations.
             Notre plateforme ajoute la possibilité de travailler sur les données issues des conversations pour permettre 
@@ -472,7 +469,7 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
         <div class="tab-img hidden-xs col-sm-7">
           <img src="{{baseUrl}}images/services/voice-business.jpg" alt="" class="img-responsive"/>
         </div>
-        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+        <div class="tab-text col-xs-12 col-sm-5">
           <p class="text-info">En plus d’une interface d’analyse et d’administration vous avez aussi la capacité d’interagir de manière transversale sur d’autres interfaces conversationnelles</p>
           <p>Ceci pour promouvoir auprès des utilisateurs vos produits et services.
 Notre service marketing dédié Voice Business vous permet d’intégrer une de nos interfaces conversationnelles ou celles de nos partenaires pour promouvoir, informer et positionner au premier plan vos produits et services. 
