@@ -56,7 +56,7 @@
       <div class="col-xs-12 col-sm-6">
         <blockquote>
           <span class="twa twa-speech-balloon"></span>
-          <div class="text text-primary">
+          <div class="text text-quote">
             “ {{ testimonialQuote | i18n() }} ”
           </div>
         </blockquote>

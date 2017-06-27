@@ -24,9 +24,9 @@
     <div class="col-xs-12 col-sm-7">
       <h2>L'enjeu est crucial</h2>
       <blockquote>
-        <span class="twa twa-speech-balloon"></span>
+        <img src="{{baseUrl}}images/msg.png" align="left" style="width: 28px;">
         <div class="text">
-          “ #VoiceFirst est un changement radical de la façon de consommer Internet. ”
+          &nbsp;&nbsp;“ #VoiceFirst est un changement radical de la façon de consommer Internet. ”
         </div>
         <div class="author">
           Franck • CEO Voice Services
@@ -429,7 +429,7 @@
         <div class="tab-img hidden-xs col-sm-7">
           <img src="{{baseUrl}}images/services/platform-data.jpg" alt="" class="img-responsive"/>
         </div>
-        <div class="tab-text col-xs-12 col-sm-4 col-sm-negative-offset-2">
+        <div class="tab-text col-xs-12 col-sm-5">
           <p class="text-info">VoiceServices vous donne accès à une plate-forme d’administration de vos interfaces conversationnelles</p>
           <p>Analyse des interactions clients, statistiques d’utilisations, paramétrage de vos interfaces, extraction de données...
 Notre plate-forme vous permet de <span class="text-semibold">capitaliser sur les données</span> échangées et ainsi de pouvoir vous aider à <span class="text-semibold">améliorer l’expérience utilisateur</span> au plus près des attentes de vos clients et à optimiser vos ventes de produits et services.
