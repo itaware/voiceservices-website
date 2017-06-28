@@ -430,7 +430,7 @@
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
           <p class="text-info">{{ 'services-platform-title' | i18n() }}</p>
-          <p>{{ 'services-platform-title' | i18n() }}</p>
+          <p>{{ 'services-platform-content' | i18n() }}</p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -442,7 +442,7 @@
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
           <p class="text-info">{{ 'services-tech-title' | i18n() }}</p>
-          <p>{{ 'services-tech-title' | i18n() }}</p>
+          <p>{{ 'services-tech-content' | i18n() }}</p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -454,7 +454,7 @@
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
           <p class="text-info">{{ 'services-ai-title' | i18n() }}</p>
-          <p>{{ 'services-ai-title' | i18n() }}
+          <p>{{ 'services-ai-content' | i18n() }}
           </p>
         </div>
       </div>
@@ -467,7 +467,7 @@
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
           <p class="text-info">{{ 'services-biz-title' | i18n() }}</p>
-          <p>{{ 'services-biz-title' | i18n() }}
+          <p>{{ 'services-biz-content' | i18n() }}
         </p>
         </div>
       </div>
