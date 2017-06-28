@@ -429,11 +429,8 @@
           <img src="{{baseUrl}}images/services/platform-data.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">Voice Services vous donne accès à une plate-forme d’administration de vos interfaces conversationnelles</p>
-          <p>Analyse des interactions clients, statistiques d’utilisations, paramétrage de vos interfaces, extraction de données...
-Notre plate-forme vous permet de <span class="text-semibold">capitaliser sur les données</span> échangées et ainsi de pouvoir vous aider à <span class="text-semibold">améliorer l’expérience utilisateur</span> au plus près des attentes de vos clients et à optimiser vos ventes de produits et services.
-Ceci est possible grâce à des algorithmes d’intelligence artificielle qui analysent les conversations archivées pour vous aider à analyser celles-ci et vous suggérer des options d’améliorations.
-        </p>
+          <p class="text-info">{{ 'services-platform-title' | i18n() }}</p>
+          <p>{{ 'services-platform-title' | i18n() }}</p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -444,8 +441,8 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
           <img src="{{baseUrl}}images/services/techno-device.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">Les dernières technologies et les terminaux de pointe à votre service</p>
-          <p>Concernant les commandes vocales nous proposons les produits du marché : Google Home, Amazon Echo (aka Alexa), Apple Siri. Sachant que ces technologies NLP (Natural Language Processing) peuvent être utilisés aussi depuis un smartphone ou un ordinateur. Nous maitrisons tout les outils mis à disposition par les éditeurs de ces produits pour développer pour vous et avec vous des interfaces conversationnelles de pointe. Des plateformes de base comme api.ai, wit.ai, recast.ai pour gérer le NLP au SDK Google Actions et Amazon Skill Kit pour piloter les terminaux nous tirons le meilleur parti de ces technologies à votre service.  Nos interfaces conversationnelles sont de fait compatibles avec les plateformes de messageries instantanées du marché : Facebook Messenger, Siri, Slack, Twilio, Viber, Skype, Telegram, Line, Microsoft Cortana, KiK</p>
+          <p class="text-info">{{ 'services-tech-title' | i18n() }}</p>
+          <p>{{ 'services-tech-title' | i18n() }}</p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -456,9 +453,8 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
           <img src="{{baseUrl}}images/services/ai-machine-learning.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">L'intelligence artificielle et le machine learning au coeur de l'expérience utilisateur</p>
-          <p>Les technologies actuelle d'interprétation du langage naturel (NLP) permettent désormais d'élaborer des conversations complexes. Combinées à de l'intelligence artificielle et du machine learning pour continuellement améliorée l'interprétation et optimiser les conversations.
-            Notre plateforme ajoute la possibilité de travailler sur les données issues des conversations pour permettre 
+          <p class="text-info">{{ 'services-ai-title' | i18n() }}</p>
+          <p>{{ 'services-ai-title' | i18n() }}
           </p>
         </div>
       </div>
@@ -470,10 +466,8 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
           <img src="{{baseUrl}}images/services/voice-business.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">En plus d’une interface d’analyse et d’administration vous avez aussi la capacité d’interagir de manière transversale sur d’autres interfaces conversationnelles</p>
-          <p>Ceci pour promouvoir auprès des utilisateurs vos produits et services.
-Notre service marketing dédié Voice Business vous permet d’intégrer une de nos interfaces conversationnelles ou celles de nos partenaires pour promouvoir, informer et positionner au premier plan vos produits et services. 
-Par exemple une interface conversationnelle dédiée aux recettes de cuisine peut renvoyer de l’information sur un service partenaire qui vend des produits alimentaires.
+          <p class="text-info">{{ 'services-biz-title' | i18n() }}</p>
+          <p>{{ 'services-biz-title' | i18n() }}
         </p>
         </div>
       </div>
@@ -481,7 +475,7 @@ Par exemple une interface conversationnelle dédiée aux recettes de cuisine peu
   </section>
   <section id="partners" class="clearfix">
     <div class="container">
-      <h2>Partner program</h2>
+      <h2>{{ 'Partner program' | i18n() }}</h2>
       <img src="{{baseUrl}}images/voicepartners-logo.jpg" alt="Voice Partners"/>
       <div class="dash bg-gray"></div>
     </div>
@@ -491,18 +485,9 @@ Par exemple une interface conversationnelle dédiée aux recettes de cuisine peu
       </p>
     </div>
     <div class="col-xs-12 pull-right half-container">
-      <p class="text-info h3 text-lighter">Agence communication ? <br> Agence marketing global ? <br>Devenez partenaire et proposez dans votre offre de services la création d’interfaces conversationnelles (chatbot) : message et voix.</p>
-      <p>Notre programme de partenariat vous permettra d’avoir <span class="text-semibold">une réponse d’expert</span> face à l’émergence des nouveaux usages et <span class="text-semibold">d’être force de proposition face à vos clients.</span></p>
-      <p class="text-uppercase text-bold">Nous mettons à votre disposition un process collaboratif dédié :</p>
-      <ol class="list-styled">
-        <li>formation de vos équipes sur les enjeux et possibilité des interfaces conversationnelles</li>
-        <li>connexion à notre réseau international d’experts sur l’intelligence artificielle, le machine learning, l’interprétation du langage naturel (NLP) et les interfaces conversationnelles en général</li>
-        <li>analyse conjointe des besoins clients </li>
-        <li>aide à l’élaboration et la formulation d’offres</li>
-        <li>fourniture de support de documentation marketing sur nos services</li>
-        <li>détachement d’un expert métier dédié en avant-vente et en après-vente</li>
-      </ol>
-      <span class="twa twa-2x twa-v"></span><a href="mailto:hello@voiceservices.io?subject=partner program" target="_blank" class="btn btn-gradient btn-rounded">devenez partenaire</a>
+      <p class="text-info h3 text-lighter">{{ 'partner-headline' | i18n() }}</p>
+      {{ 'partner-program' | i18n() }}
+      <span class="twa twa-2x twa-v"></span><a href="mailto:hello@voiceservices.io?subject=partner program" target="_blank" class="btn btn-gradient btn-rounded">{{ 'become partner' | i18n() }}</a>
     </div>
   </section>
 </div>

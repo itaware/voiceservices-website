@@ -11,21 +11,21 @@
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <title>VoiceServices : les experts de l'interface conversationnelle, chatbot, google home, alexa (amazon echo)</title>
-  <meta name="description" content="l'expertise de l'interface conversationnelle pour les professionnels, chatbot, google home, alexa (amazon echo)"/>
+  <title>VoiceServices : {{ 'slogan' | i18n() }}</title>
+  <meta name="description" content="{{ 'slogan' | i18n() }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <meta property="og:url" content="http://voiceservices.io" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="VoiceServices" />
-  <meta property="og:description" content="l'expertise de l'interface conversationnelle pour les professionnels" />
+  <meta property="og:description" content="{{ 'slogan' | i18n() }}" />
   <meta property="og:image" content="http://voiceservices.io/images/voiceservices-facebook.jpg" />
   <meta property="og:locale" content="fr_FR" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@voice_platform" />
   <meta name="twitter:title" content="VoiceServices" />
-  <meta name="twitter:description" content="l'expertise de l'interface conversationnelle pour les professionnels" />
+  <meta name="twitter:description" content="{{ 'slogan' | i18n() }}" />
   <meta name="twitter:image" content="http://voiceservices.io/images/voiceservices-twitter.png" />
 
   <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
