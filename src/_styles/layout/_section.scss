@@ -1,40 +1,42 @@
 section,
-.section{
+.section {
   padding-top: $section-padding-vertical;
   padding-bottom: $section-padding-vertical;
   @include clearfix();
-  &.bg-gradient{
+  &.bg-gradient {
     @include bg-gradient(#4b46cf, #2da5af);
-
-    &.bg-image{
+    &.bg-image {
       position: relative;
-      &:before{
+      &:before {
         content: "";
         position: absolute;
-        top:0;
+        top: 0;
         right: 0;
         left: 0;
-        bottom:0;
+        bottom: 0;
         background: no-repeat center center;
         background-size: cover;
-        opacity:0.3;
+        opacity: 0.3;
       }
     }
   }
-  &.text-white{
-    h2{
-      &:before{
+  &.text-white {
+    h2 {
+      &:before {
         background: #fff;
       }
     }
   }
-  .bg-primary{
+  .bg-primary {
     color: #fff;
+  }
+  ol {
+    @extend ol.list-styled, .list-styled;
   }
 }
 
-#expertise{
-  &:before{
+#expertise {
+  &:before {
     background-image: url(../images/bg-expertise.jpg);
   }
 }

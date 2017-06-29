@@ -335,32 +335,39 @@
       <h2>{{'Frames' | i18n()}}</h2>
       <h3 style="color: white; font-size: 16px;">" {{ 'frames-headline' | i18n() }} "</h3>
       <div class="container-block-flex">
-
-          <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
-            <div class="block-flex-inner">
-              <img src="{{baseUrl}}images/metiers/iot-icon.svg" alt="{{ 'IoT & Home Automation' | i18n() }}"/>
-              <div class="block-icon-title text-semibold text-uppercase">{{ 'IoT & Home Automation' | i18n() }}</div>
-              <div class="block-icon-desc">{{ 'iot-home-headline' | i18n() }}</div>
-              <div class="block-icon-btn">
-                <a href="iot-home-automation.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                  <span class="fa fa-plus"></span>
-                </a>
-              </div>
-            </div>
-          </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/hotel-icon.svg" alt="{{ 'Hotel & Restaurant' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Hotel & Restaurant' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'hotel-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn"><a href="hotel-restaurant.html" class="btn btn-circle btn-icon-gradient bg-primary">
-              <span class="fa fa-plus"></span> </a></div>
+            <a href="bank-insurance.html">
+              <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Bank & Insurance' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Bank & Insurance' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'bank-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="bank-insurance.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
           </div>
         </div>
-
-        <div class="block-flex block-icon  col-xs-12 col-sm-3 text-center">
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/health-icon.svg" alt="{{ 'Health & Wellness' | i18n() }}"/>
+            <a href="office-assistant.html">
+              <img src="{{baseUrl}}images/metiers/office-icon.svg" alt="{{ 'Office & Assistant' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Office & Assistant' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'office-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="office-assistant.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="health-wellness.html">
+              <img src="{{baseUrl}}images/metiers/health-icon.svg" alt="{{ 'Health & Wellness' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Health & Wellness' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'health-home-headline' | i18n() }}
             </div>
@@ -373,7 +380,9 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/ecommerce-icon.svg" alt="{{ 'E-commerce' | i18n() }}"/>
+            <a href="e-commerce.html">
+              <img src="{{baseUrl}}images/metiers/ecommerce-icon.svg" alt="{{ 'E-commerce' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'E-commerce' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'ecommerce-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
@@ -385,7 +394,51 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/logistics-icon.svg" alt="{{ 'Logistics' | i18n() }}"/>
+            <a href="iot-home-automation.html">
+              <img src="{{baseUrl}}images/metiers/iot-icon.svg" alt="{{ 'IoT & Home Automation' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'IoT & Home Automation' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'iot-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="iot-home-automation.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="customer-support.html">
+              <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Customer support' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Customer support' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'support-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="customer-support.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="hotel-restaurant.html">
+              <img src="{{baseUrl}}images/metiers/hotel-icon.svg" alt="{{ 'Hotel & Restaurant' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Hotel & Restaurant' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'hotel-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="hotel-restaurant.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span> 
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="logistics.html">
+              <img src="{{baseUrl}}images/metiers/logistics-icon.svg" alt="{{ 'Logistics' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Logistics' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'logistics-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
@@ -397,7 +450,9 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/takeaway-icon.svg" alt="{{ 'Takeaway service' | i18n() }}"/>
+            <a href="takeaway-service.html">
+              <img src="{{baseUrl}}images/metiers/takeaway-icon.svg" alt="{{ 'Takeaway service' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Takeaway service' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'takeaway-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
@@ -409,47 +464,13 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/transport-icon.svg" alt="{{ 'Transport & Delivery' | i18n() }}"/>
+            <a href="transport-delivery.html">
+              <img src="{{baseUrl}}images/metiers/transport-icon.svg" alt="{{ 'Transport & Delivery' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Transport & Delivery' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'transport-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
               <a href="transport-delivery.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                <span class="fa fa-plus"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
-          <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Customer support' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Customer support' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'support-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn">
-              <a href="customer-support.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                <span class="fa fa-plus"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="block-flex block-icon col-xs-12 col-sm-6 text-center">
-          <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Bank & Insurance' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Bank & Insurance' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'bank-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn">
-              <a href="bank-insurance.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                <span class="fa fa-plus"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="block-flex block-icon col-xs-12 col-sm-6 text-center">
-          <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Office & Assistant' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Office & Assistant' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'office-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn">
-              <a href="office-assistant.html" class="btn btn-circle btn-icon-gradient bg-primary">
                 <span class="fa fa-plus"></span>
               </a>
             </div>
@@ -471,11 +492,8 @@
           <img src="{{baseUrl}}images/services/platform-data.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">Voice Services vous donne accès à une plate-forme d’administration de vos interfaces conversationnelles</p>
-          <p>Analyse des interactions clients, statistiques d’utilisations, paramétrage de vos interfaces, extraction de données...
-Notre plate-forme vous permet de <span class="text-semibold">capitaliser sur les données</span> échangées et ainsi de pouvoir vous aider à <span class="text-semibold">améliorer l’expérience utilisateur</span> au plus près des attentes de vos clients et à optimiser vos ventes de produits et services.
-Ceci est possible grâce à des algorithmes d’intelligence artificielle qui analysent les conversations archivées pour vous aider à analyser celles-ci et vous suggérer des options d’améliorations.
-        </p>
+          <p class="text-info">{{ 'services-platform-title' | i18n() }}</p>
+          <p>{{ 'services-platform-content' | i18n() }}</p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -486,8 +504,8 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
           <img src="{{baseUrl}}images/services/techno-device.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">Les dernières technologies et les terminaux de pointe à votre service</p>
-          <p>Concernant les commandes vocales nous proposons les produits du marché : Google Home, Amazon Echo (aka Alexa), Apple Siri. Sachant que ces technologies NLP (Natural Language Processing) peuvent être utilisés aussi depuis un smartphone ou un ordinateur. Nous maitrisons tout les outils mis à disposition par les éditeurs de ces produits pour développer pour vous et avec vous des interfaces conversationnelles de pointe. Des plateformes de base comme api.ai, wit.ai, recast.ai pour gérer le NLP au SDK Google Actions et Amazon Skill Kit pour piloter les terminaux nous tirons le meilleur parti de ces technologies à votre service.  Nos interfaces conversationnelles sont de fait compatibles avec les plateformes de messageries instantanées du marché : Facebook Messenger, Siri, Slack, Twilio, Viber, Skype, Telegram, Line, Microsoft Cortana, KiK</p>
+          <p class="text-info">{{ 'services-tech-title' | i18n() }}</p>
+          <p>{{ 'services-tech-content' | i18n() }}</p>
         </div>
       </div>
       <div class="tab-accordion-title text-uppercase text-semibold text-center">
@@ -498,9 +516,8 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
           <img src="{{baseUrl}}images/services/ai-machine-learning.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">L'intelligence artificielle et le machine learning au coeur de l'expérience utilisateur</p>
-          <p>Les technologies actuelle d'interprétation du langage naturel (NLP) permettent désormais d'élaborer des conversations complexes. Combinées à de l'intelligence artificielle et du machine learning pour continuellement améliorée l'interprétation et optimiser les conversations.
-            Notre plateforme ajoute la possibilité de travailler sur les données issues des conversations pour permettre 
+          <p class="text-info">{{ 'services-ai-title' | i18n() }}</p>
+          <p>{{ 'services-ai-content' | i18n() }}
           </p>
         </div>
       </div>
@@ -512,10 +529,8 @@ Ceci est possible grâce à des algorithmes d’intelligence artificielle qui an
           <img src="{{baseUrl}}images/services/voice-business.jpg" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">En plus d’une interface d’analyse et d’administration vous avez aussi la capacité d’interagir de manière transversale sur d’autres interfaces conversationnelles</p>
-          <p>Ceci pour promouvoir auprès des utilisateurs vos produits et services.
-Notre service marketing dédié Voice Business vous permet d’intégrer une de nos interfaces conversationnelles ou celles de nos partenaires pour promouvoir, informer et positionner au premier plan vos produits et services. 
-Par exemple une interface conversationnelle dédiée aux recettes de cuisine peut renvoyer de l’information sur un service partenaire qui vend des produits alimentaires.
+          <p class="text-info">{{ 'services-biz-title' | i18n() }}</p>
+          <p>{{ 'services-biz-content' | i18n() }}
         </p>
         </div>
       </div>
@@ -523,7 +538,7 @@ Par exemple une interface conversationnelle dédiée aux recettes de cuisine peu
   </section>
   <section id="partners" class="clearfix">
     <div class="container">
-      <h2>Partner program</h2>
+      <h2>{{ 'Partner program' | i18n() }}</h2>
       <img src="{{baseUrl}}images/voicepartners-logo.jpg" alt="Voice Partners"/>
       <div class="dash bg-gray"></div>
     </div>
@@ -533,18 +548,9 @@ Par exemple une interface conversationnelle dédiée aux recettes de cuisine peu
       </p>
     </div>
     <div class="col-xs-12 pull-right half-container">
-      <p class="text-info h3 text-lighter">Agence communication ? <br> Agence marketing global ? <br>Devenez partenaire et proposez dans votre offre de services la création d’interfaces conversationnelles (chatbot) : message et voix.</p>
-      <p>Notre programme de partenariat vous permettra d’avoir <span class="text-semibold">une réponse d’expert</span> face à l’émergence des nouveaux usages et <span class="text-semibold">d’être force de proposition face à vos clients.</span></p>
-      <p class="text-uppercase text-bold">Nous mettons à votre disposition un process collaboratif dédié :</p>
-      <ol class="list-styled">
-        <li>formation de vos équipes sur les enjeux et possibilité des interfaces conversationnelles</li>
-        <li>connexion à notre réseau international d’experts sur l’intelligence artificielle, le machine learning, l’interprétation du langage naturel (NLP) et les interfaces conversationnelles en général</li>
-        <li>analyse conjointe des besoins clients </li>
-        <li>aide à l’élaboration et la formulation d’offres</li>
-        <li>fourniture de support de documentation marketing sur nos services</li>
-        <li>détachement d’un expert métier dédié en avant-vente et en après-vente</li>
-      </ol>
-      <span class="twa twa-2x twa-v"></span><a href="mailto:hello@voiceservices.io?subject=partner program" target="_blank" class="btn btn-gradient btn-rounded">devenez partenaire</a>
+      <p class="text-info h3 text-lighter">{{ 'partner-headline' | i18n() }}</p>
+      {{ 'partner-program' | i18n() }}
+      <span class="twa twa-2x twa-v"></span><a href="mailto:hello@voiceservices.io?subject=partner program" target="_blank" class="btn btn-gradient btn-rounded">{{ 'become partner' | i18n() }}</a>
     </div>
   </section>
 </div>

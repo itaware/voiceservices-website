@@ -1,4 +1,5 @@
 {
+  "slogan": "chatbot experts for business, text messaging and voice with Google Home, Amazon Echo (Alexa)",
   "ceoQuote": "#VoiceFirst is a radical change in the way we use Internet.",
   "homeQuote": "According to the estimations of Consumer Intelligence Research Partners, more than <span class=\"text-bold\">8 millions copies have been sold</span> by the end of 2016, and the wave is noticeably growing.",
 
@@ -14,14 +15,14 @@
 
   "frames-headline": "Our experts will imagine and create for you and with you, the future functions of your job",
 
-  "iot-home-headline": "Développez des services innovants autour de l’IoT (objets connectés) pour le pilotage de la maison, l'usine, la smart city...",
-  "iot-headline": "Développez des services innovants autour de l’IoT (objets connectés) pour le pilotage de la maison, l'usine, la smart city...",
-  "iot-title": "Développez les usages des objets connectés et de la domotique",
-  "iot-subtitle": "Exemple : arrosez vos plantes automatiquement avec <a href=\"https://www.parrot.com/fr/jardin-connecte/parrot-pot#parrot-pot-details\" target=\"_blank\">Parrot POT</a>, allumez la télévision et éteignez la lumière avec <a href=\"https://www.smartthings.com/\" target=\"_blank\">Samsung Smarthings</a>, ... le tout en restant dans votre canapée et en demandant à votre assistant vocale de le faire pour vous.",
-  "iot-details": "Vous produisez des objets connectés ? profitez de notre expertise pour compléter votre offre d'une interfacte conversationnelle pour faciliter son usage. Que ce soit un produit à destination des particuliers ou des professionnels, une interface conversationnelle trouve sa place à la maison comme au bureau ou à l'usine.",
-  "iot-quote": "Les objets connectés combinés à une interface conversationnelle sont 2x plus utilisés !",
-  "iot-testimonial-quote": "Grâce à l'expertise de Voice Services nous avons compléter notre outil d'une interface conversationnelle qui a fait gonflé nos ventes !",
-  "iot-testimonial-detail": "Projet : développement d'une interface conversationnelle pour le pilotage d'une climatisation pour les particuliers et les professionnels. L'interface permet de démarrer, arrêter et modifier la température du climatiseur. Une interface indispensable pour éviter les aller-retours inutiles vers le thermostat.",
+  "iot-home-headline": "Build innovative services with IoT for home automation, industry, smart city...",
+  "iot-headline": "Build innovative services with IoT for home automation, industry, smart city...",
+  "iot-title": "Expand IoT usability for home automation",
+  "iot-subtitle": "Exemple : water plants with <a href=\"https://www.parrot.com/fr/jardin-connecte/parrot-pot#parrot-pot-details\" target=\"_blank\">Parrot POT</a>, turn on TV and turn off light with <a href=\"https://www.smartthings.com/\" target=\"_blank\">Samsung Smarthings</a>, ... le tout en restant dans votre canapée et en demandant à votre assistant vocale de le faire pour vous.",
+  "iot-details": "IoT producer or provider ? take benefits of our expertise to add to your product a chatbot and make it easy to use. For end user or business a chatbot improve user experience at home or office.",
+  "iot-quote": "IoT objects with chatbot are 2x more used !",
+  "iot-testimonial-quote": "Thanks to Voice Services expertise we build a dedicated chatbot for our product and sales up !",
+  "iot-testimonial-detail": "Project : chatbot developpement to control air conditionner at home or office. Chatbot allow user to stop, start and update temperature. A very useful service to stop round trip to the controller.",
 
   "hotel-home-headline": "Offrez la possibilité de vérifier et affiner les réservations, facilitez la réservation d’une table pour votre restaurant.",
   "hotel-headline": "Offrez la possibilité de vérifier et affiner les réservations, facilitez la réservation d’une table pour votre restaurant.",
@@ -32,8 +33,8 @@
   "hotel-testimonial-quote": "Des retours très positifs de nos clients depuis là mise en place de l'assistant de réservation de restaurant pour notre hotel !",
   "hotel-testimonial-detail": "Projet : développement d'une interface conversationnelle pour la réservation de restaurants sélécionnés par le guide de l'hôtel dans les environs capable de s'adapter à plus d'un 20aine de langues.",
   
-  "health-home-headline": "<p>Offrez une assistance aux professionnels de santé pour rédiger leur compte rendu et compléter le dossier médical de leurs patients.</p><p>Soutenez les patients dans leur traitement et la gestion de leur maladie.</p>",
-  "health-headline": "<p>Offrez une assistance aux professionnels de santé pour rédiger leur compte rendu et compléter le dossier médical de leurs patients.</p><p>Soutenez les patients dans leur traitement et la gestion de leur maladie.</p>",
+  "health-home-headline": "Offrez une assistance aux professionnels de santé pour rédiger leur compte rendu et compléter le dossier médical de leurs patients. Soutenez les patients dans leur traitement et la gestion de leur maladie.",
+  "health-headline": "Offrez une assistance aux professionnels de santé pour rédiger leur compte rendu et compléter le dossier médical de leurs patients. Soutenez les patients dans leur traitement et la gestion de leur maladie.",
   "health-title": "Développez des services innovants au service de la santé",
   "health-subtitle": "Exemple : accompagnez les médecins dans la saisie des informations sur leur patient pour tenir à jour le dossier médical de leur patient.",
   "health-details": "Les interfaces conversationnelles offrent au secteur de la santé une opportunité exceptionnelle pour améliorer l'ergonomie. Cet usage est bien adapté aux attentes tant des médecins dans leur activité quotidiennes, que des patients dans la gestion de leur traitement et de leur maladie.",
@@ -102,5 +103,16 @@
   "office-details": "Les interfaces conversationnelles permettent de facilement remplacer les tâches classique de secrétariat. Très rapidement vous pouvez gérer de manière intuitive les tâches administratives quotidiennes.",
   "office-quote": "L'assistant virtuel est un complément très pratique à l'assistant humain.",
   "office-testimonial-quote": "Mon assistante peut désormais se consacrer pleinement aux tâches les plus complexes !",
-  "office-testimonial-detail": "Projet : développement d'un assistant virtuel pour piloter les tâches administrative quotidienne d'une institution publique."
+  "office-testimonial-detail": "Projet : développement d'un assistant virtuel pour piloter les tâches administrative quotidienne d'une institution publique.",
+
+  "services-platform-title": "Voice Services gives you access to a platform for the management of your chatbot",
+  "services-platform-content": "Analysis of customer interactions, usage statistics, interface configuration, data extraction...<br>Our platform allows you to capitalize on exchanged data, and helps you to improve the user experience to be as closely as possible to customer expectations and to optimize your sales of products and services.<br>It is possible thanks to algorithms of artificial intelligence that interpret archived conversations to help you analyzing it and receive suggestions of improvement options.",
+  "services-tech-title": "Last technologies and devices at your disposal",
+  "services-tech-content": "For voice command we manage product on the market lik Google Home, Amazon Echo (aka Alexa), Apple Siri. <br>Those technologies NLP (Natural Language Processing) could also be used on smartphone or computer. We consider all the tools and frameworks on the market to develop for you and with you amazing chatbots. Platforms like api.ai, wit.ai, recast.ai to manage NLP and SDK like Google Actions and Amazon Skill Kit to manage devices are used to build for you best chatbots. <br>Our chatbots development are compatible with chat apps like : Facebook Messenger, Siri, Slack, Twilio, Viber, Skype, Telegram, Line, Microsoft Cortana, KiK",
+  "services-ai-title": "Artificial intelligence and machine learning are at the heart of user experience",
+  "services-ai-content": "Current natural language processing (NLP) technologies can produce complex conversations. Combined to artifical intelligence and machine learning to constantly improve interpretation and optimize conversations. <br>Our platform adds the possibility to work on data from conversations to build cross interactions between chatbots services for a more powerful user experience.",
+  "services-biz-title": "Besides an interface of analysis and management, you can also interact in a transversal way on other chatbots to promote your products and services to customers",
+  "services-biz-content": "This way, you can promote your products and services to your customers. Our dedicated marketing service, Voice Business allows you to join one of our chatbots or our partners’ interfaces to promote, inform and position your products and services at the forefront. <br>For example, a chatbot dedicated to recipes can redirect to the content of a partner service that sells food products.",
+
+  "partner-headline": "Communication agency ? <br> Global marketing agency ? <br>Become a Partner and include the creation of chatbots: message and voice, to the services you are offering."
 }
