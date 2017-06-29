@@ -1,8 +1,15 @@
 .carousel-indicators{
   position: static;
   margin: 15px 0;
-  width: 100%;
+  width: auto;
+  display: inline-block;
+  border-radius: 2em;
+  box-shadow:  0 0 12px 0 rgba(68, 69, 78, 0.2);
+  padding: 5px 15px;
+  text-align: center;
+  line-height: 25px;
   li{
+    vertical-align: middle;
     background: #d8d8d8;
     width: 12px;
     height: 12px;
