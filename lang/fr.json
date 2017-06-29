@@ -66,9 +66,9 @@
   "health-title": "Développez des services innovants au service de la santé",
   "health-subtitle": "Exemple : accompagnez les médecins dans la saisie des informations sur leur patient pour tenir à jour le dossier médical de leur patient.",
   "health-details": "Les interfaces conversationnelles (chatbots) offrent au secteur de la santé une opportunité exceptionnelle pour améliorer l'ergonomie. Cet usage est bien adapté aux attentes tant des médecins dans leur activité quotidiennes, que des patients dans la gestion de leur traitement et de leur maladie.",
-  "health-quote": "\"Je veux pouvoir dire à mon téléphone: 'prescris un Lovenox\" Dr Damien Bellan",
+  "health-quote": "\"Je veux pouvoir dire à mon téléphone: 'prescris un Lovenox\" <br><i><a href=\"http://www.ticsante.com/story.php?story=3562\" target=\"_blank\">Dr Damien Bellan</a>, Chirurgien, Rennes</i>",
   "health-testimonial-quote": "J'ai enfin gagné du temps dans la gestion de mes dossiers médicaux !",
-  "health-testimonial-detail": "Projet : développement d'une solution collaborative de coordination des soins : <a href=\"http://slack4health.com\" target=\"_blank\">Slack4Health</a> pour établissements de soins. Un système de message action permet aux professionnels de santé de gérer leur dossiers médicaux par messagerie ou voix.",
+  "health-testimonial-detail": "Projet : développement d'une solution collaborative de coordination des soins pour établissements de soins : <a href=\"http://slack4health.com\" target=\"_blank\">Slack4Health</a>. Un système de message action permet aux professionnels de santé de gérer leur dossiers médicaux par messagerie ou voix.",
 
   "E-commerce": "E-commerce",
   "ecommerce-home-headline": "Facilitez la prise de commande sur votre site d’achats en ligne et offrez une expérience d’achat simplifiée et singulière à vos clients.",
