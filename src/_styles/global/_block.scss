@@ -12,3 +12,35 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.bulle-writing{
+  position: relative;
+  display:inline-block;
+  margin: 25px 0 25px;
+  background: $brand-blue;
+  padding: 0px 10px;
+  border-radius: 2em;
+  color: #fff;
+  font-size: 40px;
+  line-height: 0.8;
+  letter-spacing: -2px;
+  &:before,
+  &:after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: $brand-blue;
+    border-radius: 50%;
+  }
+  &:before{
+    width: 13px;
+    height: 13px;
+    transform: translate(-2px, 2px);
+  }
+  &:after{
+    width: 6px;
+    height: 6px;
+    transform: translate(-7px,6px);
+  }
+}

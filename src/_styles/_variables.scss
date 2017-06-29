@@ -3,6 +3,7 @@ $brand-primary:                     #35363d;
 $brand-info:                        #651fff;
 $brand-secondary:                   #1de9b6;
 $brand-quote:                       #bdddf4;
+$brand-blue:                        #299efd;
 
 //== Typography
 //
@@ -54,6 +55,11 @@ $navbar-margin-bottom:              0;
 //##
 $blockquote-font-size:              22px;
 $blockquote-small-color:            $brand-gray;
+
+//== carousel
+//
+//##
+$carousel-indicator-active-bg:          #000;
 
 // theme variables
 $section-padding-vertical:          40px;

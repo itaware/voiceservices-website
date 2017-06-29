@@ -150,7 +150,7 @@
               <div class="dash bg-info"></div>
               {{ 'process-design' | i18n() }}
             </div>
-            <div class="icon-circle"><span>✔</span></div>
+            <div class="icon-circle"><span>&#x2714;</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -172,7 +172,7 @@
               <div class="dash bg-faded"></div>
               {{ 'process-prototyping' | i18n() }}
             </div>
-            <div class="icon-circle"><span>✔</span></div>
+            <div class="icon-circle"><span>&#x2714;</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -194,7 +194,7 @@
               <div class="dash bg-info"></div>
               {{ 'process-integration' | i18n() }}
             </div>
-            <div class="icon-circle"><span>✔</span></div>
+            <div class="icon-circle"><span>&#x2714;</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -216,7 +216,7 @@
               <div class="dash bg-faded"></div>
               {{ 'process-testing' | i18n() }}
             </div>
-            <div class="icon-circle"><span>✔</span></div>
+            <div class="icon-circle"><span>&#x2714;</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -238,7 +238,7 @@
               <div class="dash bg-info"></div>
               {{ 'process-implementation' | i18n() }}
             </div>
-            <div class="icon-circle"><span>✔</span></div>
+            <div class="icon-circle"><span>&#x2714;</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -260,7 +260,7 @@
               <div class="dash bg-faded"></div>
               {{ 'process-deployment' | i18n() }}
             </div>
-            <div class="icon-circle"><span>✔</span></div>
+            <div class="icon-circle"><span>&#x2714;</span></div>
           </div>
         </div>
         <div class="timeline-item clearfix">
@@ -282,9 +282,51 @@
               <div class="dash bg-info"></div>
               {{ 'process-maintenance' | i18n() }}
             </div>
-            <div class="icon-circle"><span>✔</span></div>
+            <div class="icon-circle"><span>&#x2714;</span></div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2>{{ 'Did you now?' | i18n() }}</h2>
+      <div id="carousel" class="carousel slide text-center half-container" data-interval="5000">
+
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="bulle-writing">
+              •••
+            </div>
+            <blockquote>
+              “ We’ve seen more progress in voice technology in the last 30 months than we saw ine the last 30 years. ”
+            </blockquote>
+          </div>
+          <div class="item">
+            <div class="bulle-writing">
+              •••
+            </div>
+            <blockquote>
+              “ We’ve seen more progress in voice technology in the last 30 months than we saw ine the last 30 years. ”
+            </blockquote>
+          </div>
+          <div class="item">
+            <div class="bulle-writing">
+              •••
+            </div>
+            <blockquote>
+              “ We’ve seen more progress in voice technology in the last 30 months than we saw ine the last 30 years. ”
+            </blockquote>
+          </div>
+        </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
       </div>
     </div>
   </section>
