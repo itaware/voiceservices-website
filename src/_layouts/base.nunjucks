@@ -3,6 +3,7 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
 {% set baseUrl = config.baseUrl or '/' %}
+{% set baseLang %}{% if __locale__ == 'en' %}{{'/'}}{% else %}{{ '/' + __locale__}}{% endif %}{% endset %}
 {% endblock %}
 
 <!DOCTYPE html>
@@ -52,7 +53,7 @@
         </button>
         <ul class="list-inline">
           <li>
-           <a href="/"><img src="{{baseUrl}}images/voice-logo.png" alt="let your customer's voice be heard !"/></a>
+           <a href="{{baseLang}}"><img src="{{baseUrl}}images/voice-logo.png" alt="let your customer's voice be heard !"/></a>
           </li>
           <li style="vertical-align: middle; border-left: gray 1px solid; padding-left: 12px;">
             <span style="font-size: 16px; text-transform: uppercase;">let your customer's voice be heard !</span>
@@ -63,13 +64,13 @@
       </div>
       <div class="collapse navbar-collapse" id="main-nav">
         <ul class="nav navbar-nav text-uppercase">
-          <li><a href="#a-propos">{{ 'about' | i18n() }}</a></li>
-          <li><a href="#enjeux">{{ 'challenges' | i18n() }}</a></li>
-          <li><a href="#expertise">{{ 'expertise' | i18n() }}</a></li>
-          <li><a href="#metiers">{{ 'frames' | i18n() }}</a></li>
-          <li><a href="#services">{{ 'services' | i18n() }}</a></li>
-          <li><a href="#partners">{{ 'partners' | i18n() }}</a></li>
-          <li><a href="#contact">{{ 'contact' | i18n() }}</a></li>
+          <li><a href="{{baseLang}}#a-propos">{{ 'about' | i18n() }}</a></li>
+          <li><a href="{{baseLang}}#enjeux">{{ 'challenges' | i18n() }}</a></li>
+          <li><a href="{{baseLang}}#expertise">{{ 'expertise' | i18n() }}</a></li>
+          <li><a href="{{baseLang}}#metiers">{{ 'frames' | i18n() }}</a></li>
+          <li><a href="{{baseLang}}#services">{{ 'services' | i18n() }}</a></li>
+          <li><a href="{{baseLang}}#partners">{{ 'partners' | i18n() }}</a></li>
+          <li><a href="{{baseLang}}#contact">{{ 'contact' | i18n() }}</a></li>
         </ul>
       </div>
     </div>

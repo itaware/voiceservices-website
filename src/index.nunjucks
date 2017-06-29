@@ -293,32 +293,39 @@
       <h2>{{'Frames' | i18n()}}</h2>
       <h3 style="color: white; font-size: 16px;">" {{ 'frames-headline' | i18n() }} "</h3>
       <div class="container-block-flex">
-
-          <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
-            <div class="block-flex-inner">
-              <img src="{{baseUrl}}images/metiers/iot-icon.svg" alt="{{ 'IoT & Home Automation' | i18n() }}"/>
-              <div class="block-icon-title text-semibold text-uppercase">{{ 'IoT & Home Automation' | i18n() }}</div>
-              <div class="block-icon-desc">{{ 'iot-home-headline' | i18n() }}</div>
-              <div class="block-icon-btn">
-                <a href="iot-home-automation.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                  <span class="fa fa-plus"></span>
-                </a>
-              </div>
-            </div>
-          </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/hotel-icon.svg" alt="{{ 'Hotel & Restaurant' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Hotel & Restaurant' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'hotel-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn"><a href="hotel-restaurant.html" class="btn btn-circle btn-icon-gradient bg-primary">
-              <span class="fa fa-plus"></span> </a></div>
+            <a href="bank-insurance.html">
+              <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Bank & Insurance' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Bank & Insurance' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'bank-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="bank-insurance.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
           </div>
         </div>
-
-        <div class="block-flex block-icon  col-xs-12 col-sm-3 text-center">
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/health-icon.svg" alt="{{ 'Health & Wellness' | i18n() }}"/>
+            <a href="office-assistant.html">
+              <img src="{{baseUrl}}images/metiers/office-icon.svg" alt="{{ 'Office & Assistant' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Office & Assistant' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'office-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="office-assistant.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="health-wellness.html">
+              <img src="{{baseUrl}}images/metiers/health-icon.svg" alt="{{ 'Health & Wellness' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Health & Wellness' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'health-home-headline' | i18n() }}
             </div>
@@ -331,7 +338,9 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/ecommerce-icon.svg" alt="{{ 'E-commerce' | i18n() }}"/>
+            <a href="e-commerce.html">
+              <img src="{{baseUrl}}images/metiers/ecommerce-icon.svg" alt="{{ 'E-commerce' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'E-commerce' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'ecommerce-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
@@ -343,7 +352,51 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/logistics-icon.svg" alt="{{ 'Logistics' | i18n() }}"/>
+            <a href="iot-home-automation.html">
+              <img src="{{baseUrl}}images/metiers/iot-icon.svg" alt="{{ 'IoT & Home Automation' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'IoT & Home Automation' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'iot-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="iot-home-automation.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="customer-support.html">
+              <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Customer support' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Customer support' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'support-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="customer-support.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="hotel-restaurant.html">
+              <img src="{{baseUrl}}images/metiers/hotel-icon.svg" alt="{{ 'Hotel & Restaurant' | i18n() }}"/>
+            </a>
+            <div class="block-icon-title text-semibold text-uppercase">{{ 'Hotel & Restaurant' | i18n() }}</div>
+            <div class="block-icon-desc">{{ 'hotel-home-headline' | i18n() }}</div>
+            <div class="block-icon-btn">
+              <a href="hotel-restaurant.html" class="btn btn-circle btn-icon-gradient bg-primary">
+                <span class="fa fa-plus"></span> 
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
+          <div class="block-flex-inner">
+            <a href="logistics.html">
+              <img src="{{baseUrl}}images/metiers/logistics-icon.svg" alt="{{ 'Logistics' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Logistics' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'logistics-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
@@ -355,7 +408,9 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/takeaway-icon.svg" alt="{{ 'Takeaway service' | i18n() }}"/>
+            <a href="takeaway-service.html">
+              <img src="{{baseUrl}}images/metiers/takeaway-icon.svg" alt="{{ 'Takeaway service' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Takeaway service' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'takeaway-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
@@ -367,47 +422,13 @@
         </div>
         <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
           <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/transport-icon.svg" alt="{{ 'Transport & Delivery' | i18n() }}"/>
+            <a href="transport-delivery.html">
+              <img src="{{baseUrl}}images/metiers/transport-icon.svg" alt="{{ 'Transport & Delivery' | i18n() }}"/>
+            </a>
             <div class="block-icon-title text-semibold text-uppercase">{{ 'Transport & Delivery' | i18n() }}</div>
             <div class="block-icon-desc">{{ 'transport-home-headline' | i18n() }}</div>
             <div class="block-icon-btn">
               <a href="transport-delivery.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                <span class="fa fa-plus"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="block-flex block-icon col-xs-12 col-sm-3 text-center">
-          <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Customer support' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Customer support' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'support-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn">
-              <a href="customer-support.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                <span class="fa fa-plus"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="block-flex block-icon col-xs-12 col-sm-6 text-center">
-          <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Bank & Insurance' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Bank & Insurance' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'bank-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn">
-              <a href="bank-insurance.html" class="btn btn-circle btn-icon-gradient bg-primary">
-                <span class="fa fa-plus"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="block-flex block-icon col-xs-12 col-sm-6 text-center">
-          <div class="block-flex-inner">
-            <img src="{{baseUrl}}images/metiers/support-icon.svg" alt="{{ 'Office & Assistant' | i18n() }}"/>
-            <div class="block-icon-title text-semibold text-uppercase">{{ 'Office & Assistant' | i18n() }}</div>
-            <div class="block-icon-desc">{{ 'office-home-headline' | i18n() }}</div>
-            <div class="block-icon-btn">
-              <a href="office-assistant.html" class="btn btn-circle btn-icon-gradient bg-primary">
                 <span class="fa fa-plus"></span>
               </a>
             </div>
