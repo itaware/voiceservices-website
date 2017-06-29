@@ -301,7 +301,7 @@
               •••
             </div>
             <blockquote>
-              “ We’ve seen more progress in voice technology in the last 30 months than we saw ine the last 30 years. ”
+              “ {{ 'quote1' | i18n() }} ”
             </blockquote>
           </div>
           <div class="item">
@@ -309,7 +309,7 @@
               •••
             </div>
             <blockquote>
-              “ We’ve seen more progress in voice technology in the last 30 months than we saw ine the last 30 years. ”
+              “ {{ 'quote2' | i18n() }} ”
             </blockquote>
           </div>
           <div class="item">
@@ -317,7 +317,7 @@
               •••
             </div>
             <blockquote>
-              “ We’ve seen more progress in voice technology in the last 30 months than we saw ine the last 30 years. ”
+              “ {{ 'quote3' | i18n() }} ”
             </blockquote>
           </div>
         </div>
