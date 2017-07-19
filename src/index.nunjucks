@@ -290,7 +290,7 @@
   </section>
   <section>
     <div class="container">
-      <h2>{{ 'Did you now?' | i18n() }}</h2>
+      <h2>{{ 'Did you know?' | i18n() }}</h2>
       <div id="carousel" class="carousel slide text-center half-container" data-interval="5000">
 
 
