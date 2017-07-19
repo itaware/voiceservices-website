@@ -37,8 +37,8 @@
         </div>
         <div class="block col-xs-12">
           <div class="row">
-            <a href="{{telHref}}" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>{{ 'call us' | i18n() }}</a>
-            <a href="{{mailtoHref}}" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>{{ 'mail us' | i18n() }}</a>
+            <a href="{{config.telHref}}" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>{{ 'call us' | i18n() }}</a>
+            <a href="{{config.mailtoHref}}" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>{{ 'mail us' | i18n() }}</a>
           </div>
         </div>
       </div>
