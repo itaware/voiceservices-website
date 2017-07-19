@@ -1,7 +1,7 @@
 {% extends '_layouts/metiers.nunjucks' %}
 {% set icon = 'iot-icon.svg' %}
 {% set bgImg = 'iot-slide.jpg' %}
-{% set frame = 'IoT & Home automation' %}
+{% set frame = 'IoT & Home Automation' %}
 {% set headline = 'iot-headline' %}
 {% set title = 'iot-title' %}
 {% set subtitle = 'iot-subtitle' %}
