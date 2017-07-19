@@ -2,8 +2,8 @@ Notre programme de partenariat vous permettra d’avoir **une réponse d’exper
 
 **NOUS METTONS À VOTRE DISPOSITION UN PROCESS COLLABORATIF DÉDIÉ** :
 
- 1. formation de vos équipes sur les enjeux et possibilité des interfaces conversationnelles (chatbot)
- 2. connexion à notre réseau international d’experts sur l’intelligence artificielle, le machine learning, l’interprétation du langage naturel (NLP) et les interfaces conversationnelles en général
+ 1. formation de vos équipes sur les enjeux et possibilité des agents conversationnels (chatbot)
+ 2. connexion à notre réseau international d’experts sur l’intelligence artificielle, le machine learning, l’interprétation du langage naturel (NLP) et les agents conversationnels en général
  3. analyse conjointe des besoins clients
  4. aide à l’élaboration et la formulation d’offres
  5. fourniture de support de documentation marketing sur nos services

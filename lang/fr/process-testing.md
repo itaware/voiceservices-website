@@ -1,2 +1,2 @@
  - Réalisation d'une série d’expérimentations par itérations pour permettre d’**affiner chaque scénario au plus proche des attentes clients**
- - Analyse des résultats à chaque fin d'itération et amélioration de l'interface conversationnelle
+ - Analyse des résultats à chaque fin d'itération et amélioration de l'agent conversationnel
