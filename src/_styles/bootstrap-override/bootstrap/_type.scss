@@ -26,8 +26,12 @@ h2{
     margin-right: 15px;
   }
 }
-
-.list-styled{
+.h2{
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+ul, .list-styled{
   position: relative;
   li{
     list-style: none;
@@ -37,7 +41,7 @@ h2{
     }
   }
 }
-ul.list-styled{
+ul, ul.list-styled{
   padding-left: 25px;
   li{
     &:before{

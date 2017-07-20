@@ -85,22 +85,30 @@
     <a href="{{config.mailtoHref}}" target="_blank" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>{{ 'mail us' | i18n() }}</span></span></a>
   </div>
 </div>
-<footer id="contact" class="section bg-primary clearfix">
+<footer id="contact" class="bg-primary clearfix">
   <div class="container">
     <h2>Contact</h2>
-    <div class="btn-contact col-xs-12 col-sm-6 text-center">
-      <p class="text-semibold">{{ 'Want to call us ?' | i18n() }}</p>
-      <a href="{{config.telHref}}" class="btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span>{{ 'call' | i18n() }}</a>
-    </div>
-    <div class="btn-contact col-xs-12 col-sm-6 text-center">
-      <p class="text-semibold">{{ 'Want to sendu us an email ?' | i18n() }}</p>
-      <a href="{{config.mailtoHref}}" target="_blank" class="btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span>{{ 'mail' | i18n() }}</a>
+    <div class="container-btn-contact">
+      <div class="btn-contact col-xs-12 col-sm-6 text-center">
+        <p class="text-semibold">{{ 'Want to call us ?' | i18n() }}</p>
+        <a href="{{config.telHref}}" class="btn btn-gradient btn-rounded">
+          <span class="icon icon-phone-icon"></span>
+          <span class="text">{{ 'call' | i18n() }}</a>
+        </a>
+      </div>
+      <div class="btn-contact col-xs-12 col-sm-6 text-center">
+        <p class="text-semibold">{{ 'Want to sendu us an email ?' | i18n() }}</p>
+        <a href="{{config.mailtoHref}}" target="_blank" class="btn btn-gradient btn-rounded">
+          <span class="fa fa-envelope-o"></span>
+          <span class="text">{{ 'mail' | i18n() }}</span>
+        </a>
+      </div>
     </div>
   </div>
   <hr/>
   <div class="footer-legal container small">
-    <div class="pull-left">
-      Voice © • Marque(s) & Concept Liberty Finances, SàRL au capital de 1.000.000 €
+    <div class="pull-left small">
+      <span class="text-gray">Voice © • Marque(s) & Concept Liberty Finances, SàRL au capital de 1.000.000 €</span>
       <a href="#" class="link-footer text-uppercase text-white">{{ 'Terms of use' | i18n() }}</a>
     </div>
     <div class="pull-right">

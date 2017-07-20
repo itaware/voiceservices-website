@@ -111,3 +111,18 @@
     }
   }
 }
+
+.valign{
+  font-size: 0;
+  &-item{
+    display:inline-block;
+    float:none;
+    font-size: initial;
+  }
+
+  &-center{
+    .valign-item{
+      vertical-align: middle;
+    }
+  }
+}

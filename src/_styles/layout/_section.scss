@@ -33,6 +33,9 @@ section,
   ol {
     @extend ol.list-styled, .list-styled;
   }
+  .block-right {
+    padding-top: 24px;
+  }
 }
 
 #expertise {

@@ -22,12 +22,18 @@
 .text-white{
   color: #fff;
 }
+.text-quote{
+  color: $brand-quote;
+}
+.text-dark-blue{
+  color: $brand-dark-blue;
+}
+.text-black{
+  color: $brand-black;
+}
 
 // == size
 .text-sm{
   font-size: 16px;
 }
 
-.text-quote{
-  color: $brand-quote;
-}

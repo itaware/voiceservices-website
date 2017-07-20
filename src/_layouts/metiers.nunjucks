@@ -43,24 +43,26 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-sm-negative-offset-1">
-        <img src="{{baseUrl}}images/metiers/{{img}}" alt="" class="img-responsive" />
+        <img src="{{baseUrl}}images/metiers/{{img}}" alt="" class="img-responsive"/>
       </div>
     </div>
   </section>
   <section class="bg-info text-white">
     <div class="container">
       <h2>{{ 'Testimonial' | i18n() }}</h2>
-      <div class="block col-xs-12 col-sm-4">
-        <img src="{{baseUrl}}images/metiers/{{testimonialImg}}" alt="{{ 'Testimonial' | i18n() }}" class="img-responsive" />
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <blockquote>
-          <span class="twa twa-speech-balloon"></span>
-          <div class="text text-quote">
-            “ {{ testimonialQuote | i18n() }} ”
-          </div>
-        </blockquote>
-        <p>{{ testimonialDetail | i18n() }}</p>
+      <div class="block valign valign-center">
+        <div class="valign-item col-xs-12 col-sm-4">
+          <img src="{{baseUrl}}images/metiers/{{testimonialImg}}" alt="{{ 'Testimonial' | i18n() }}" class="img-responsive"/>
+        </div>
+        <div class="valign-item col-xs-12 col-sm-6">
+          <blockquote>
+            <span class="twa twa-speech-balloon"></span>
+            <div class="text text-quote text-dark-blue">
+              “ {{ testimonialQuote | i18n() }} ”
+            </div>
+          </blockquote>
+          <p>{{ testimonialDetail | i18n() }}</p>
+        </div>
       </div>
     </div>
   </section>

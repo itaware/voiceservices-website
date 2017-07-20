@@ -6,10 +6,12 @@
 <div class="main-container">
   <header id="a-propos" class="content-header-slide">
     <div class="content-header-slide--content text-center text-uppercase">
+      <p>
       <img src="{{baseUrl}}images/voice-logo-final-2.png"
         srcset="{{baseUrl}}images/voice-logo-final-2@2x.png 2x,
              {{baseUrl}}images/voice-logo-final-2@3x.png 3x"
            class="Voice-logo-final-2">
+      </p>
       <p>
         {{ 'chatbot experts for your business' | i18n() }}
         <br>
@@ -42,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-5">
+    <div class="block-right col-xs-12 col-sm-5">
       <div class=" text-semibold text-uppercase">{{ 'VIRTUAL ASSISTANTS' | i18n() }} :</div>
       <p class="text-medium ">{{ 'A rise of users... In millions, worldwide.' | i18n() }}</p>
       <small class="text-gray">Source Les Echos / Juniper Research</small>
@@ -166,10 +168,10 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-sm">
+              <div class="text-black text-sm">
               {{ 'process-prototyping-concept' | i18n() }}
               </div>
-              <div class="dash bg-faded"></div>
+              <div class="dash bg-black"></div>
               {{ 'process-prototyping' | i18n() }}
             </div>
             <div class="icon-circle"><span>&#x2714;</span></div>
@@ -210,10 +212,10 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-sm">
+              <div class="text-black text-sm">
                 {{ 'process-testing-concept' | i18n() }}
               </div>
-              <div class="dash bg-faded"></div>
+              <div class="dash bg-black"></div>
               {{ 'process-testing' | i18n() }}
             </div>
             <div class="icon-circle"><span>&#x2714;</span></div>
@@ -254,10 +256,10 @@
             <div class="timeline-item-content-inner">
               <div class="pull-right button-close visible-xs visible-sm  btn-circle btn-icon-gradient btn-space-left">
                 <span class="glyphicon glyphicon-remove"></span></div>
-              <div class="text-sm">
+              <div class="text-black text-sm">
                 {{ 'process-deployment-concept' | i18n() }}
               </div>
-              <div class="dash bg-faded"></div>
+              <div class="dash bg-black"></div>
               {{ 'process-deployment' | i18n() }}
             </div>
             <div class="icon-circle"><span>&#x2714;</span></div>
