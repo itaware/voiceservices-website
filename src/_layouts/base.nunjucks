@@ -63,7 +63,7 @@
         </ul>
       </div>
       <div class="collapse navbar-collapse" id="main-nav">
-        <ul class="nav navbar-nav text-uppercase">
+        <ul class="nav navbar-nav text-uppercase list-unstyled">
           <li><a href="{{baseLang}}#a-propos">{{ 'about' | i18n() }}</a></li>
           <li><a href="{{baseLang}}#enjeux">{{ 'challenges' | i18n() }}</a></li>
           <li><a href="{{baseLang}}#expertise">{{ 'expertise' | i18n() }}</a></li>
@@ -79,10 +79,20 @@
 {% block content %}{% endblock %}
 <div class="block-contact-fixe">
   <div>
-    <a href="{{config.telHref}}" class="btn btn btn-gradient btn-rounded"><span class="icon icon-phone-icon"></span><span class="btn-text"><span>{{ 'call us' | i18n() }}</span></span></a>
+    <a href="{{config.telHref}}" class="btn btn btn-gradient btn-rounded">
+      <span class="typcn typcn-device-phone"></span>
+      <span class="btn-text">
+        <span>{{ 'call us' | i18n() }}</span>
+      </span>
+    </a>
   </div>
   <div>
-    <a href="{{config.mailtoHref}}" target="_blank" class="btn btn btn-gradient btn-rounded"><span class="fa fa-envelope-o"></span><span class="btn-text"><span>{{ 'mail us' | i18n() }}</span></span></a>
+    <a href="{{config.mailtoHref}}" target="_blank" class="btn btn btn-gradient btn-rounded">
+      <span class="typcn typcn-mail"></span>
+      <span class="btn-text">
+        <span>{{ 'mail us' | i18n() }}</span>
+      </span>
+    </a>
   </div>
 </div>
 <footer id="contact" class="bg-primary clearfix">
@@ -92,14 +102,14 @@
       <div class="btn-contact col-xs-12 col-sm-6 text-center">
         <p class="text-semibold">{{ 'Want to call us ?' | i18n() }}</p>
         <a href="{{config.telHref}}" class="btn btn-gradient btn-rounded">
-          <span class="icon icon-phone-icon"></span>
+          <span class="typcn typcn-device-phone"></span>
           <span class="text">{{ 'call' | i18n() }}</a>
         </a>
       </div>
       <div class="btn-contact col-xs-12 col-sm-6 text-center">
         <p class="text-semibold">{{ 'Want to sendu us an email ?' | i18n() }}</p>
         <a href="{{config.mailtoHref}}" target="_blank" class="btn btn-gradient btn-rounded">
-          <span class="fa fa-envelope-o"></span>
+          <span class="typcn typcn-mail"></span>
           <span class="text">{{ 'mail' | i18n() }}</span>
         </a>
       </div>

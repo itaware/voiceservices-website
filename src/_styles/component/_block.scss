@@ -53,18 +53,23 @@
     margin: 20px 0;
     padding: 6px;
     text-align: left;
-    font-size: 22px;
+    font-size: 30px;
     //transition: all 1s;
+    > span{
+      display:block;
+      float: left;
+    }
     .icon,
     .fa,
-    .glyphicon{
+    .glyphicon,
+    .typcn{
       margin: 0;
       width: 40px;
       height: 40px;
-      line-height: 40px;
+      line-height: 35px;
     }
     .btn-text{
-      display:inline-block;
+      line-height: 40px;
       width:0;
       transition: width 0.8s;
       transform-origin: left center;

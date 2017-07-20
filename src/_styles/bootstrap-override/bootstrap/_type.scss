@@ -31,6 +31,7 @@ h2{
   font-weight: 300;
   margin-bottom: 30px;
 }
+
 ul, .list-styled{
   position: relative;
   li{
@@ -52,6 +53,13 @@ ul, ul.list-styled{
     }
   }
 }
+ul.list-unstyled{
+
+  li:before{
+    content: none;
+  }
+}
+
 ol.list-styled{
   padding-left: 45px;
   counter-reset: li;
