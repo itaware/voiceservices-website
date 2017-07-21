@@ -73,7 +73,7 @@
           <div class="text-uppercase text-semibold">{{ 'Our platform is compatible with :' | i18n() }}</div>
           <div class="row">
             <div class="list-logo-item col-xs-6 col-md-4 text-center">
-              <div class="btn btn-white btn-circle btn-lg">
+              <div class="bg-white btn-circle btn-lg">
                 <img src="{{baseUrl}}images/social/googleassistant.png" alt="Google assistant" title="" class="img-responsive"/>
               </div>
               <div class="list-logo-item-name text-semibold text-white">
@@ -81,7 +81,7 @@
               </div>
             </div>
             <div class="list-logo-item col-xs-6 col-md-4 text-center">
-              <div class="btn btn-white btn-circle btn-lg">
+              <div class="bg-white btn-circle btn-lg">
                 <img src="{{baseUrl}}images/social/alexa.png" alt="Alexa" title="Alexa" class="img-responsive"/>
               </div>
               <div class="list-logo-item-name text-semibold text-white">
@@ -89,7 +89,7 @@
               </div>
             </div>
             <div class="list-logo-item col-xs-6 col-md-4 text-center">
-              <div class="btn btn-white btn-circle btn-lg">
+              <div class="bg-white btn-circle btn-lg">
                 <img src="{{baseUrl}}images/social/siri.png" alt="Siri" title="Siri" class="img-responsive"/>
               </div>
               <div class="list-logo-item-name text-semibold text-white">
@@ -97,7 +97,7 @@
               </div>
             </div>
             <div class="list-logo-item col-xs-6 col-md-4 text-center">
-              <div class="btn btn-white btn-circle btn-lg">
+              <div class="bg-white btn-circle btn-lg">
                 <img src="{{baseUrl}}images/social/cortana.png" alt="Cortana" title="Cortana" class="img-responsive"/>
               </div>
               <div class="list-logo-item-name text-semibold text-white">
@@ -105,7 +105,7 @@
               </div>
             </div>
             <div class="list-logo-item col-xs-6 col-md-4 text-center">
-              <div class="btn btn-white btn-circle btn-lg">
+              <div class="bg-white btn-circle btn-lg">
                 <img src="{{baseUrl}}images/social/messenger.png" alt="Messenger" title="Messenger" class="img-responsive"/>
               </div>
               <div class="list-logo-item-name text-semibold text-white">
@@ -113,7 +113,7 @@
               </div>
             </div>
             <div class="list-logo-item col-xs-6 col-md-4 text-center">
-              <div class="btn btn-white btn-circle btn-lg">
+              <div class="bg-white btn-circle btn-lg">
                 <img src="{{baseUrl}}images/social/whatsapp.png" alt="whatsapp" title="whatsapp" class="img-responsive"/>
               </div>
               <div class="list-logo-item-name text-semibold text-white">
@@ -495,7 +495,7 @@
           <img src="{{baseUrl}}images/services/platform-data.png" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">{{ 'services-platform-title' | i18n() }}</p>
+          <p class="text-info h2">{{ 'services-platform-title' | i18n() }}</p>
           <p>{{ 'services-platform-content' | i18n() }}</p>
         </div>
       </div>

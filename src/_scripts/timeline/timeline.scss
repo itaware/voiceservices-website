@@ -85,7 +85,9 @@
     transform: translateY(-50%);
     transition: all $timeline-item-transition;
     transition-delay: $timeline-point-transition-delay;
-
+    .dash {
+      height: 1px;
+    }
     &-inner {
       position: relative;
       padding: 25px 35px;

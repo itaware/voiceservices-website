@@ -12,6 +12,7 @@
   @include button-variant(#fff ,$brand-primary,  #fff);
 }
 .btn-circle{
+  display:inline-block;
   width: 25px;
   height: 25px;
   line-height: 25px;
