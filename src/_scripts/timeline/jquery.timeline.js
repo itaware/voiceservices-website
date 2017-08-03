@@ -68,6 +68,7 @@
 
     var timelineProgress = function () {
       offsetTop = $element.offset().top;
+      timeline_max = $element.height();
       if (element_visible_value($element) > 0) {
         $element.addClass('active');
         $children.removeClass('active');
