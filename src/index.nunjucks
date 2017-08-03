@@ -128,12 +128,12 @@
   <section id="process" class="bg-faded">
     <div class="container">
       <h2>{{'Process' | i18n()}}</h2>
-      <div class="container-timeline ">
+      <div class="container-timeline clearfix">
         <div class="timeline">
           <div class="timeline-line"></div>
           <div class="timeline-end"></div>
         </div>
-        <div class="timeline-item">
+        <div class="timeline-item clearfix">
           <div class="timeline-point bg-faded no-padding">
             <img src="{{baseUrl}}images/process/conception.svg" alt="{{'Design' | i18n()}}"/></div>
           <div class="timeline-point bg-primary text-uppercase text-semibold timeline-modal-button">
@@ -507,7 +507,7 @@
           <img src="{{baseUrl}}images/services/techno-device.png" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">{{ 'services-tech-title' | i18n() }}</p>
+          <p class="text-info h2">{{ 'services-tech-title' | i18n() }}</p>
           <p>{{ 'services-tech-content' | i18n() }}</p>
         </div>
       </div>
@@ -519,7 +519,7 @@
           <img src="{{baseUrl}}images/services/ai-machine-learning.png" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">{{ 'services-ai-title' | i18n() }}</p>
+          <p class="text-info h2">{{ 'services-ai-title' | i18n() }}</p>
           <p>{{ 'services-ai-content' | i18n() }}
           </p>
         </div>
@@ -532,7 +532,7 @@
           <img src="{{baseUrl}}images/services/voice-business.png" alt="" class="img-responsive"/>
         </div>
         <div class="tab-text col-xs-12 col-sm-5">
-          <p class="text-info">{{ 'services-biz-title' | i18n() }}</p>
+          <p class="text-info h2">{{ 'services-biz-title' | i18n() }}</p>
           <p>{{ 'services-biz-content' | i18n() }}
         </p>
         </div>
