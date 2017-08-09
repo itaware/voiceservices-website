@@ -78,7 +78,7 @@
 {% block content %}{% endblock %}
 <div class="block-contact-fixe">
   <div>
-    <a href="{{config.telHref}}" class="btn btn btn-gradient btn-rounded">
+    <a href="{{config.telHref}}" class="btn btn-gradient ">
       <span class="typcn typcn-device-phone"></span>
       <span class="btn-text">
         <span>{{ 'call us' | i18n() }}</span>
@@ -86,7 +86,7 @@
     </a>
   </div>
   <div>
-    <a href="{{config.mailtoHref}}" class="btn btn btn-gradient btn-rounded">
+    <a href="{{config.mailtoHref}}" class="btn btn-gradient">
       <span class="typcn typcn-mail"></span>
       <span class="btn-text">
         <span>{{ 'mail us' | i18n() }}</span>
@@ -98,12 +98,13 @@
   <div class="container">
     <h2>Contact</h2>
     <div class="container-btn-contact">
+
       <div class="btn-contact col-xs-12 col-sm-6 text-center">
         <p class="text-semibold">{{ 'Want to call us ?' | i18n() }}</p>
         <a href="{{config.telHref}}" class="btn btn-gradient btn-rounded">
-          <span class="typcn typcn-device-phone"></span>
-          <span class="text">{{ 'call' | i18n() }}</a>
-        </a>
+        <span class="typcn typcn-device-phone"></span>
+        <span class="text">{{ 'call' | i18n() }}</span>
+      </a>
       </div>
       <div class="btn-contact col-xs-12 col-sm-6 text-center">
         <p class="text-semibold">{{ 'Want to sendu us an email ?' | i18n() }}</p>
