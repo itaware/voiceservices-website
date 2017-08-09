@@ -15,7 +15,7 @@
   <title>VoiceServices : {{ 'slogan' | i18n() }}</title>
   <meta name="description" content="{{ 'slogan' | i18n() }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta property="og:url" content="http://voiceservices.io" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="VoiceServices" />
@@ -51,16 +51,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <ul class="list-inline list-unstyled">
-          <li>
-           <a href="{{baseLang}}"><img src="{{baseUrl}}images/voice-logo.png" alt="let your customer's voice be heard !"/></a>
-          </li>
-          <li style="vertical-align: middle; border-left: gray 1px solid; padding-left: 12px;">
-            <span style="font-size: 16px; text-transform: uppercase;">let your customer's voice be heard !</span>
-            <br>
-            <span style="font-size: 10px;">VOICE & CHATBOT SERVICES COMPANY</span>
-          </li>
-        </ul>
+        <div class="valign valign-center">
+        <div class="logo valign-item">
+          <a href="{{baseLang}}"><img src="{{baseUrl}}images/voice-logo.png" alt="let your customer's voice be heard !"/></a>
+        </div>
+        <div class="slogan valign-item">
+          <div class="text-uppercase text-sm text-gray">let your customer's voice be heard !</div>
+          <div class="text-mini text-semibold">VOICE & CHATBOT SERVICES COMPANY</div>
+        </div>
+        </div>
       </div>
       <div class="collapse navbar-collapse" id="main-nav">
         <ul class="nav navbar-nav text-uppercase list-unstyled">
@@ -79,7 +78,7 @@
 {% block content %}{% endblock %}
 <div class="block-contact-fixe">
   <div>
-    <a href="{{config.telHref}}" class="btn btn btn-gradient btn-rounded">
+    <a href="#" onclick="window.location='{{config.telHref}}'; return false;" class="btn btn btn-gradient btn-rounded">
       <span class="typcn typcn-device-phone"></span>
       <span class="btn-text">
         <span>{{ 'call us' | i18n() }}</span>
@@ -87,7 +86,7 @@
     </a>
   </div>
   <div>
-    <a href="{{config.mailtoHref}}" target="_blank" class="btn btn btn-gradient btn-rounded">
+    <a href="#" onclick="window.location='{{config.mailtoHref}}'; return false;" class="btn btn btn-gradient btn-rounded">
       <span class="typcn typcn-mail"></span>
       <span class="btn-text">
         <span>{{ 'mail us' | i18n() }}</span>

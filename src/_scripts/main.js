@@ -7,6 +7,7 @@ var $ = require('jquery');
 require('bootstrap');
 require('./timeline/jquery.timeline');
 require('./tab-accordion/jquery.tabAccordion');
+require('owl.carousel');
 
 
 $(document).ready(function () {
@@ -26,7 +27,10 @@ $(document).ready(function () {
     }
   });
 
-
+  $('.owl-carousel').owlCarousel({
+    items: 1,
+    autoplay: true
+  });
 
   $('.container-timeline').timeline();
 

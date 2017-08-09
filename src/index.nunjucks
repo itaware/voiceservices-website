@@ -10,8 +10,9 @@
       <img src="{{baseUrl}}images/voice-logo-final-2.png"
         srcset="{{baseUrl}}images/voice-logo-final-2@2x.png 2x,
              {{baseUrl}}images/voice-logo-final-2@3x.png 3x"
-           class="Voice-logo-final-2">
+           class="Voice-logo-final-2 hidden-xs">
       </p>
+
       <p>
         {{ 'chatbot experts for your business' | i18n() }}
         <br>
@@ -294,12 +295,12 @@
   <section>
     <div class="container">
       <h2>{{ 'Did you know?' | i18n() }}</h2>
-      <div id="carousel" class="carousel slide text-center half-container" data-interval="5000">
+
+      <div id="" class="owl-carousel owl-theme text-center half-container" data-interval="5000">
 
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
+          <div class="item">
             <div class="bulle-writing">
               •••
             </div>
@@ -323,13 +324,7 @@
               “ {{ 'quote3' | i18n() }} ”
             </blockquote>
           </div>
-        </div>
-        <!-- Indicators -->
-        <ul class="list-unstyled carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ul>
+
       </div>
     </div>
   </section>

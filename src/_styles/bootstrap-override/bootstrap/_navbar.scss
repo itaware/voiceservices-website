@@ -1,5 +1,8 @@
 .navbar-header{
-  margin-top: 25px;
+  padding: 10px 15px;
+  @media(min-width:$screen-xs-max){
+    margin-top: 15px;
+  }
 }
 .navbar-default {
   .navbar-nav {
@@ -59,4 +62,8 @@
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse{
   max-height: none;
+}
+.navbar-toggle{
+  z-index: 500;
+  margin-right: 0;
 }
