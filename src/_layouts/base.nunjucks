@@ -15,7 +15,7 @@
   <title>VoiceServices : {{ 'slogan' | i18n() }}</title>
   <meta name="description" content="{{ 'slogan' | i18n() }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
+
   <meta property="og:url" content="http://voiceservices.io" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="VoiceServices" />
@@ -78,7 +78,7 @@
 {% block content %}{% endblock %}
 <div class="block-contact-fixe">
   <div>
-    <a href="#" onclick="window.location='{{config.telHref}}'; return false;" class="btn btn btn-gradient btn-rounded">
+    <a href="{{config.telHref}}" class="btn btn btn-gradient btn-rounded">
       <span class="typcn typcn-device-phone"></span>
       <span class="btn-text">
         <span>{{ 'call us' | i18n() }}</span>
@@ -86,7 +86,7 @@
     </a>
   </div>
   <div>
-    <a href="#" onclick="window.location='{{config.mailtoHref}}'; return false;" class="btn btn btn-gradient btn-rounded">
+    <a href="{{config.mailtoHref}}" class="btn btn btn-gradient btn-rounded">
       <span class="typcn typcn-mail"></span>
       <span class="btn-text">
         <span>{{ 'mail us' | i18n() }}</span>
