@@ -540,10 +540,10 @@
       <img src="{{baseUrl}}images/voicepartners-logo.jpg" alt="Voice Partners"/>
       <div class="dash bg-gray"></div>
     </div>
-    <div class="col-xs-12  pull-right col-sm-6">
-      <p>
-        <img src="{{baseUrl}}images/partners.jpg" alt="" class="img-responsive"/>
-      </p>
+    <div class="col-xs-12 clearfix pull-right col-sm-6">
+      <div class="row">
+        <img src="{{baseUrl}}images/partners.jpg" alt="" class="img-responsive pull-right"/>
+      </div>
     </div>
     <div class="col-xs-12 pull-right half-container">
       <p class="text-info h3 text-lighter">{{ 'partner-headline' | i18n() }}</p>
