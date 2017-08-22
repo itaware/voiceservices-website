@@ -2,6 +2,7 @@
 
 .tab-accordion {
   position: relative;
+
   .tab-accordion-title{
     position: relative;
     display: inline-block;
@@ -74,11 +75,17 @@
       opacity: 0;
       width: 100%;
       transition: opacity 0.5s;
+      display:flex;
 
       &.open {
         z-index: 10;
         opacity: 1;
       }
+    }
+
+    .tab-img{
+      display:flex;
+      align-items: flex-end;
     }
   }
 
