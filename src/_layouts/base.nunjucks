@@ -29,6 +29,20 @@
   <meta name="twitter:description" content="{{ 'slogan' | i18n() }}" />
   <meta name="twitter:image" content="http://voiceservices.io/images/voiceservices-twitter.png" />
 
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "http://voiceservices.io",
+    "logo": "http://voiceservices.io/voice-logo.png",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+33612163393",
+      "contactType": "sales"
+    }]
+  }
+  </script>
+
   <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
   {% block stylesheets %}{% endblock %}
 

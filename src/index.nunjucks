@@ -7,9 +7,9 @@
   <header id="a-propos" class="content-header-slide">
     <div class="content-header-slide--content text-center text-uppercase">
       <p>
-      <img src="{{baseUrl}}images/voice-logo-final-2.png"
-        srcset="{{baseUrl}}images/voice-logo-final-2@2x.png 2x,
-             {{baseUrl}}images/voice-logo-final-2@3x.png 3x"
+      <img src="{{baseUrl}}images/voice-logo-final-1.png"
+        srcset="{{baseUrl}}images/voice-logo-final-2.png 2x,
+             {{baseUrl}}images/voice-logo-final-3.png 3x"
            class="Voice-logo-final-2 hidden-xs">
       </p>
 
