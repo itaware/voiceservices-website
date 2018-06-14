@@ -20,7 +20,7 @@ module.exports = function (gulp, plugins, args, config, taskTarget, browserSync)
       .pipe(plugins.sftp({
         host: 'sftp.dc2.gpaas.net',
         user: user,
-        passphrase: 'win7352',
+        passphrase: 'lemanitobanerepondplus',
         remotePath: 'vhosts/' + vhost + '/htdocs'
       }));
   });
