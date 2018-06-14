@@ -548,7 +548,7 @@
     <div class="col-xs-12 pull-right half-container">
       <p class="text-info h3 text-lighter">{{ 'partner-headline' | i18n() }}</p>
       {{ 'partner-program' | i18n() }}
-      <span class="emoji emoji-2x emoji-victory-hand"></span><a href="mailto:hello@voiceservices.io?subject=partner program" target="_blank" class="btn btn-gradient btn-rounded">{{ 'become partner' | i18n() }}</a>
+      <span class="emoji emoji-2x emoji-victory-hand"></span><a href="mailto:hello@voiceservices.fr?subject=partner program" target="_blank" class="btn btn-gradient btn-rounded">{{ 'become partner' | i18n() }}</a>
     </div>
   </section>
 </div>

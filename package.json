@@ -70,7 +70,7 @@
     "port": "3000",
     "baseUrl": "/",
     "telHref": "tel:0612163393",
-    "mailtoHref": "mailto:hello@voiceservices.io",
+    "mailtoHref": "mailto:hello@voiceservices.fr",
     "directories": {
       "source": "src",
       "destination": "build",
